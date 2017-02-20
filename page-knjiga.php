@@ -11,7 +11,7 @@ Template Name: Knjiga
 	
 	<div class="wrapper">
 
-		<div class="breadcrumb <?php if ( $post->post_parent == '718' ) echo 'red'; elseif ( $post->post_parent == '1085' ) echo 'orange'; elseif ( $post->post_parent == '1083' ) echo 'blue'; ?>">
+		<div class="breadcrumb">
 
 			<?php $url = home_url();?>
 
@@ -40,7 +40,7 @@ Template Name: Knjiga
 
 	<main>
 
-		<aside>
+		<aside class="knjiga">
 			
 			
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>

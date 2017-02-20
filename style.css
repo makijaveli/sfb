@@ -1763,6 +1763,15 @@ a.page-numbers {
 .bookinfo .nastavnik-field {display: table;}
 .bookinfo .nastavnik-field p {margin: 0 0 0 0;}
 
+aside.knjiga ul li a {
+	font-size: 17px;
+	font-weight: 400;
+}
+
+aside.knjiga ul li {
+	margin-bottom: 10px;
+}
+
 
 
 #tabs {
