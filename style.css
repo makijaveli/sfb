@@ -1607,7 +1607,7 @@ nav.main-nav.green {
 }
 
 .odsek-kat.red h4 {
-	background-color: #ac0a3a;
+	background-color: rgba(172, 10, 58, 0.6);
 }
 
 .odsek-kat.orange h4 {
@@ -1778,7 +1778,7 @@ a.page-numbers {
 
 .bookinfo .nastavnik-field {display: table;}
 .bookinfo .nastavnik-field p {margin: 0 0 0 0;}
-
+.bookinfo .nastavnik-field span {width: inherit}
 aside.knjiga ul li a {
 	font-size: 17px;
 	font-weight: 400;
