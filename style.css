@@ -1611,15 +1611,15 @@ nav.main-nav.green {
 }
 
 .odsek-kat.orange h4 {
-	background-color: #d75904;
+	background-color: rgba(215, 89, 4, 0.60);;
 }
 
 .odsek-kat.blue h4 {
-	background-color: #1a9ebc;
+	background-color: rgba(26, 158, 188, 0.6);
 }
 
 .odsek-kat.green h4 {
-	background-color: #04814b;
+	background-color: rgba(4, 129, 75, 0.6);
 }
 
 .odsek-kat h4 a {
