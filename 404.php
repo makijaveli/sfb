@@ -4,6 +4,8 @@
  *
  */
 
+ /* MWEB */
+
 get_header(); ?>
 
 	<div class="wrapper">
