@@ -1455,7 +1455,7 @@ aside .subpages .children {
 }
 
 .page-content.green h2 {
-	color: #04814b
+	color: #04814b;
 	margin-top: 75px;
 	margin-bottom: 20px;
 	clear: both;
