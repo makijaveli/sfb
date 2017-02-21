@@ -567,16 +567,32 @@ section.news {
 	background-color: #AC0A3A;
 }
 
+.table-studije.table-paih table a{
+	color: #AC0A3A;
+}
+
 .table-studije.table-ei table thead{
 	background-color: #1A9EBC;
+}
+
+.table-studije.table-ei table a{
+	color: #1A9EBC;
 }
 
 .table-studije.table-tmp table thead{
 	background-color: #D85904;
 }
 
+.table-studije.table-tmp table a{
+	color: #D85904;
+}
+
 .table-studije.table-sumarstvo table thead{
 	background-color: #04814B;
+}
+
+.table-studije.table-sumarstvo table a{
+	color: #04814B;
 }
 
 
@@ -1776,11 +1792,12 @@ aside.knjiga ul li {
 
 #tabs {
 	margin-top: 70px;
-	border-bottom: 1px solid #A6A6A6;
+	
 }
 
 #tabs ul {
 	display: inline-block;
+	border-bottom: 1px solid #A6A6A6;
 }
 
 #tabs ul li {
