@@ -94,6 +94,8 @@ if (is_tree(718)) {
 				    
 				<?php  } ?>
 
+
+
 					<p><?php the_content(); ?></p>
 
 
