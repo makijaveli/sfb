@@ -85,11 +85,29 @@ get_header();
 
 					<div class="articles">
 
-						<div class="titledate">
+						<div class="news-thumb">
+							<?php if( get_field('kategorija_vesti') == 'vazno' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/vazno.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'zan' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'adm' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/adm.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'fin' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/finansije.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'stip' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/stip.png" alt="Šumarski fakultet">
+							<?php endif; ?>
+						</div>
 
-							<div class="artdate"><?php echo get_the_date('d/m/y'); ?></div>
+						<div class="titledate">
 						
-							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>				
+							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>		
+
+							<div class="artdate"><?php echo get_the_date('d/m/y'); ?></div>		
 
 						</div>
 
@@ -131,11 +149,29 @@ get_header();
 
 					<div class="articles">
 
-						<div class="titledate">
+					<div class="news-thumb">
+							<?php if( get_field('kategorija_vesti') == 'vazno' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/vazno.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'zan' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'adm' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/adm.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'fin' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/finansije.png" alt="Šumarski fakultet">
+								<?php endif; ?>
+							<?php if( get_field('kategorija_vesti') == 'stip' ): ?>
+								<img src="<?php bloginfo('template_directory'); ?>/images/stip.png" alt="Šumarski fakultet">
+							<?php endif; ?>
+						</div>
 
-							<div class="artdate"><?php echo get_the_date('d/m/y'); ?></div>
+						<div class="titledate">
 						
-							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>				
+							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>		
+
+							<div class="artdate"><?php echo get_the_date('d/m/y'); ?></div>		
 
 						</div>
 

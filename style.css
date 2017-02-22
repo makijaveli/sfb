@@ -470,7 +470,6 @@ section.news {
 	font-weight: 400;
 	margin: 0;
 	padding: 0;
-	padding-left: 20px;
 	display: table;
 }
 
@@ -490,6 +489,11 @@ section.news {
 
 .articles:last-child{
 	margin-bottom: 0px;
+}
+
+.news-thumb {
+	float: left;
+	margin-right: 20px;
 }
 
 .ctanews {
