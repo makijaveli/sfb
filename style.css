@@ -110,6 +110,12 @@ header {
 	line-height: 35px;
 }
 
+ul.icons li {
+	float: left;
+	margin-right: 10px;
+	line-height: 30px;
+}
+
 .headerupnav {
 	float: left;
 	/*line-height: 40px;*/

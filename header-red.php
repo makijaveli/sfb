@@ -58,6 +58,8 @@
 		<div class="headerup">
 			
 			<div class="wrapper">
+
+				<?php get_template_part('template_parts/header-icons'); ?>
 				
 				<div class="headerupnav">
 					

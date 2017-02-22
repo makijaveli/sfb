@@ -55,9 +55,11 @@
 		<div class="headerup">
 			
 			<div class="wrapper">
+
+				<?php get_template_part('template_parts/header-icons'); ?>
 				
 				<div class="headerupnav">
-					
+		
 					<?php wp_nav_menu( array( 'theme_location' => 'header-top-menu' ) ); ?>
 
 				</div><!-- headerupnav -->

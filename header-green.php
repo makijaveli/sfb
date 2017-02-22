@@ -58,7 +58,9 @@
 		<div class="headerup">
 			
 			<div class="wrapper">
-				
+
+				<?php get_template_part('template_parts/header-icons'); ?>
+
 				<div class="headerupnav">
 					
 					<?php wp_nav_menu( array( 'theme_location' => 'header-top-menu' ) ); ?>
@@ -69,8 +71,8 @@
 
 				<div class="seacrhexpand">
 
-					<form class="Search blue" method="get" action="<?php bloginfo('home'); ?>/">
-				  <input type="text" class="Search-box blue" name="s" id="Search-box" placeholder="Pretraga...">
+					<form class="Search green" method="get" action="<?php bloginfo('home'); ?>/">
+				  <input type="text" class="Search-box green" name="s" id="Search-box" placeholder="Pretraga...">
 				  <label for="Search-box" class="Search-box-label">
 				    <span class="fa fa-search sb-icon-search"></span>
 				  </label>
