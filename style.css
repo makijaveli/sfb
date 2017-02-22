@@ -1483,6 +1483,22 @@ aside .subpages .children {
 	clear: both;
 }
 
+.page-content.red img {
+	border-color: #ac0a3a !important; 
+}
+
+.page-content.orange img {
+	border-color: #d75904 !important;
+}
+
+.page-content.blue img {
+	border-color: #1a9ebc !important;
+}
+
+.page-content.green img {
+	border-color: #04814b !important;
+}
+
 footer.red {
 	background-color: #ac0a3a;
 }
@@ -2113,6 +2129,22 @@ aside.knjiga ul li {
 		text-align: left;
 		width: 100%;
 		margin-top: 30px;
+	}
+
+	.page-content.red img {
+		border-color: #ac0a3a !important; 
+	}
+
+	.page-content.orange img {
+		border-color: #d75904 !important;
+	}
+
+	.page-content.blue img {
+		border-color: #1a9ebc !important;
+	}
+
+	.page-content.green img {
+		border-color: #04814b !important;
 	}
 
 	.social.green {

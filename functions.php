@@ -32,6 +32,7 @@ add_image_size('small', 120, '', true); // Small Thumbnail
 add_image_size('profil-profesora', 240, 320, true);// Profil profesora
 add_image_size('custom-size', 700, 200, true);
 add_image_size('custom-single', 290, 160, true);
+add_image_size('custom-katedra', 282, 211, true);
 add_image_size('category-size', 150, 150, true); // Custom Thumbnail Size call using the_post_thumbnail('custom-size');
 }
 

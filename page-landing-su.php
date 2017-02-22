@@ -240,7 +240,7 @@ get_header( 'green' );
 				                            <a href="<?php echo $link_kat; ?>">
 				                        <?php endif; ?>
 
-				                            <img src="<?php echo $image_kat['url']; ?>" alt="<?php echo $image_kat['alt'] ?>" />
+				                            <img src="<?php echo $image_kat['sizes']['custom-katedra']; ?>" width="<?php echo $image_kat['sizes']['custom-katedra']; ?>" height="<?php echo $image_kat['sizes']['custom-katedra']; ?>" alt="<?php echo $image_kat['caption']; ?>" />
 				                            <h4><?php echo $naslov_kat; ?></h4>
 
 				                        <?php if( $link_kat ): ?>
