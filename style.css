@@ -456,16 +456,16 @@ section.news {
 }
 
 .articles {
-	margin-bottom: 15px;
-	padding-bottom: 10px;
+	margin-bottom: 10px;
+	padding-bottom: 5px;
 	border-bottom: 1px solid #dadada;
 	display: table;
 	width: 100%;
 }
 
 .articles h1 {
-	font-size: 17px;
-	line-height: 26px;
+	font-size: 15px;
+	line-height: 24px;
 	color: #3d3d3d;
 	font-weight: 400;
 	margin: 0;
@@ -474,15 +474,14 @@ section.news {
 }
 
 .articles h1 a {
-	font-size: 17px;
+	font-size: 16px;
 	font-weight: 400;
-	line-height: 26px;
 	color: #3d3d3d;
 }
 
 .articles .artdate {
 	font-size: 13px;
-	line-height: 27px;
+	line-height: 25px;
 	color: #9a9a9a;
 	float: left;
 }
@@ -491,18 +490,26 @@ section.news {
 	margin-bottom: 0px;
 }
 
+.articles .titledate {
+	display: table; 
+}
+
 .news-thumb {
 	float: left;
 	margin-right: 20px;
 }
 
+.news-thumb img {
+	width: 35px;
+}
+
 .ctanews {
-	padding-top: 55px;
+	padding-top: 35px;
 }
 
 .ctanews a {
 	border-radius: 4px;
-	padding: 18px 19px 18px 19px;
+	padding: 9px 17px 12px 15px;
 	font-size: 17px;
 	background-color: #395d59;
 	display: inline-block;
@@ -520,7 +527,7 @@ section.news {
 	font-size: 12px;
 	font-weight: 400;
 	line-height: 30px;
-	margin-left: 36px;
+	margin-left: 12px;
 }
 
 

@@ -130,7 +130,7 @@ get_header();
 						?>
 
 						<a href="<?php echo esc_url( $category_link ); ?>">
-								<?php _e( 'Види све вести за факултете', 'sfb' ); ?>
+								<?php _e( 'Види све вести факултетa', 'sfb' ); ?>
 								
 						<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 
