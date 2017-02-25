@@ -90,6 +90,8 @@ get_header();
 						<p><?php the_content(); ?></p>
 						<h2><?php _e( 'Ужа научна област', 'sfb' ); ?></h2>
 						<?php the_field('naucna_oblast'); ?>
+						<h2><?php _e( 'Област истраживања', 'sfb' ); ?></h2>
+						<?php the_field('oblast_istrazivanja'); ?>
 						<h2><?php _e( 'Ангажовање у настави', 'sfb' ); ?></h2>
 						<?php the_field('angazovanje_u_nastavi'); ?>
 						<h2><?php _e( 'Одабрани научни радови', 'sfb' ); ?></h2>

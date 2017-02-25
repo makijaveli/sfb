@@ -1005,8 +1005,10 @@ aside ul li ul li:first-child {
 }
 
 .profimg img {
-	width: 240px;
-	height: 320px;
+	width: 150px;
+	height: auto;
+	margin-right: 0;
+	margin-bottom: 0;
 }
 
 .cat {
@@ -1032,7 +1034,13 @@ aside ul li ul li:first-child {
 }
 
 .profabout .pozicija {
+	font-weight: 400;
+    font-size: 20px;
 	color: #bdbdbd;
+}
+
+.profabout .pozicija span {
+	font-weight: 400;
 }
 
 .profabout .kontakt-detalji {
