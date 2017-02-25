@@ -9,9 +9,9 @@
 
 						<div class="profimg cat">
 							<?php if($image): //dont output an empty image tag ?>
-							<a href="<?php the_permalink() ?>" title="<?php the_title(); ?>">
-								<img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" />
-							</a>
+								<a href="<?php the_permalink() ?>">
+									<img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" />
+								</a>
 							<?php else: ?>
 								<a href="<?php the_permalink() ?>">	
 									<img src="<?php echo get_template_directory_uri(); ?>/images/user-profile-default.jpg" />

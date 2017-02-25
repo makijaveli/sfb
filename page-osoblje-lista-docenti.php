@@ -56,7 +56,19 @@
 					<?php $image = get_field('slika'); ?>
 
 					<div class="custom-prof">
-						<div class="profimg"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" /></a></div>
+						<div class="profimg">
+						
+						<?php if($image): //dont output an empty image tag ?>
+								<a href="<?php the_permalink() ?>">
+									<img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" />
+								</a>
+							<?php else: ?>
+								<a href="<?php the_permalink() ?>">	
+									<img src="<?php echo get_template_directory_uri(); ?>/images/user-profile-default.jpg" />
+								</a>	 
+							<?php endif; ?>
+						
+						</div>
 
 						<div class="profabout">
 							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>
