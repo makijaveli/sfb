@@ -70,6 +70,9 @@ get_header();
 						<div class="profabout">
 
 							<h1><?php the_title() ?></h1>
+							<div class="pozicija">	
+								<?php get_template_part('template_parts/osoblje-pozicija'); ?>
+							</div>
 
 							<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
 							<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
