@@ -1888,6 +1888,10 @@ aside.knjiga ul li {
 	padding: 0 15px;
 }
 
+#tabs ul li:before {
+	content: ' '!important;
+}
+
 .ui-tabs-panel ul {
 	margin-top: 20px;
 }
