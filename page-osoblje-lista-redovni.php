@@ -53,28 +53,23 @@
 				   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				?>
 
-					<?php $image = get_field('slika');
-
-					$file = get_field('cvsrb');
-					$file2 = get_field('cveng'); ?>
+					<?php $image = get_field('slika'); ?>
 
 					<div class="custom-prof">
-
 						<div class="profimg"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" /></a></div>
 
 						<div class="profabout">
-
 							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>
-
-							<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
-							<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
-							<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
-							
-							
-
+							<div class="pozicija">	
+								<?php get_template_part('template_parts/osoblje-pozicija'); ?>
+							</div>
+							<div class="detalji-lista">
+								<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
+								<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
+								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
+							</div>
 						</div>
-
-					</div>
+					</div><!-- /custom-prof -->
 
 
 

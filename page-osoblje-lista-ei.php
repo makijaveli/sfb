@@ -86,36 +86,23 @@ if (is_tree(718)) {
 				   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				?>
 
-					<?php $image = get_field('slika');
-
-					$file = get_field('cvsrb');
-					$file2 = get_field('cveng'); ?>
+					<?php $image = get_field('slika'); ?>
 
 					<div class="custom-prof">
-
-							<?php if($image): //dont output an empty image tag ?>
-								<a href="<?php the_permalink() ?>">
-									<img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" />
-								</a>
-							<?php else: ?>
-								<a href="<?php the_permalink() ?>">	
-									<img src="<?php echo get_template_directory_uri(); ?>/images/user-profile-default.jpg" />
-								</a>	 
-							<?php endif; ?>
+						<div class="profimg"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><img src="<?php echo $image['sizes']['profil-profesora']; ?>" width="<?php echo $image['sizes']['profil-profesora']; ?>" height="<?php echo $image['sizes']['profil-profesora']; ?>" alt="<?php echo $image['caption']; ?>" /></a></div>
 
 						<div class="profabout">
-
 							<h1><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h1>
-
-							<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
-							<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
-							<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
-							<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
-							<span>CV: </span><a href="<?php echo $file; ?>"><?php _e( 'Преузмите на српском', 'sfb' );?></a> <br>
-							<span class="nod">CV: </span><a href="<?php echo $file2; ?>"><?php _e( 'Преузмите на енглеском', 'sfb' );?></a> <br>
+							<div class="pozicija">	
+								<?php get_template_part('template_parts/osoblje-pozicija'); ?>
+							</div>
+							<div class="detalji-lista">
+								<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
+								<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
+								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
+							</div>
 						</div>
-
-					</div>
+					</div><!-- /custom-prof -->
 
 
 

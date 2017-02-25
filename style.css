@@ -1011,6 +1011,10 @@ aside ul li ul li:first-child {
 	margin-bottom: 0;
 }
 
+.custom-prof .detalji-lista {
+	margin-top: 10px;
+}
+
 .cat {
 	margin-right: 0px !important;
 }
