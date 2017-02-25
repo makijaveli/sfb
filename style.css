@@ -1034,6 +1034,11 @@ aside ul li ul li:first-child {
 	color: #bdbdbd;
 }
 
+.profabout .kontakt-detalji {
+	display: table;
+	margin-top: 25px;
+}
+
 .profabout h1 a {
 	text-decoration: none;
 }
@@ -1409,9 +1414,15 @@ aside.green ul li.has_sub ul.children li a {
     font-weight: 400;
 }
 
+aside .subpages {
+	margin-top: 10px;
+}
+
 aside .subpages .children {
 	margin-top: 10px;
 }
+
+
 
 
 .breadcrumb.red a {

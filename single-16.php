@@ -73,14 +73,16 @@ get_header();
 							<div class="pozicija">	
 								<?php get_template_part('template_parts/osoblje-pozicija'); ?>
 							</div>
-
-							<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
-							<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
-							<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
-							<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
-							<span>CV: </span><a href="<?php echo $file; ?>"><?php _e( 'Преузмите на српском', 'sfb' );?></a> <br>
-							<span class="nod">CV: </span><a href="<?php echo $file2; ?>"><?php _e( 'Преузмите на енглеском', 'sfb' );?></a> <br>
-
+							
+							<div class="kontakt-detalji">
+								<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
+								<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
+								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
+								<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
+								<?php if(get_field('cv_link')): ?>
+									<span> </span><a href="<?php the_field('cv_link'); ?>"><?php _e( 'Прогледајте CV', 'sfb' );?></a> <br>
+								<?php endif; ?>
+							</div>
 						</div>
 
 					</div>
