@@ -957,8 +957,19 @@ aside ul li ul li:first-child {
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 27px;
-	margin-left: 20px;
+	padding-left: 20px;
 }
+
+.page-content ul li:before {
+	color: #355c59;
+	font-size: 15px;
+	content: "\f101"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+	display: inline-block;
+	margin-left: -20px; /* same as padding-left set on li */
+	width: 20px; /* same as padding-left set on li */
+}
+
 
 .page-content ol li {
 	list-style-type: square;
@@ -1072,6 +1083,15 @@ aside ul li ul li:first-child {
 	text-decoration: underline;
 	color: #355c59;
 	font-weight: 400;
+}
+
+.ostali-detalji p {
+	margin-top: 15px;
+	margin-bottom: 5px;
+}
+
+.ostali-detalji .oblast {
+	margin-bottom: 40px;
 }
 
 /* End Profesor */

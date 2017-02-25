@@ -80,23 +80,32 @@ get_header();
 								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
 								<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
 								<?php if(get_field('cv_link')): ?>
-									<span> </span><a href="<?php the_field('cv_link'); ?>"><?php _e( 'Погледајте CV', 'sfb' );?></a> <br>
+									<span>CV: </span><a href="<?php the_field('cv_link'); ?>"><?php _e( 'Погледајте CV', 'sfb' );?></a> <br>
 								<?php endif; ?>
 							</div>
 						</div>
 
 					</div>
 
-						<p><?php the_content(); ?></p>
-						<h2><?php _e( 'Ужа научна област', 'sfb' ); ?></h2>
-						<?php the_field('naucna_oblast'); ?>
-						<h2><?php _e( 'Област истраживања', 'sfb' ); ?></h2>
-						<?php the_field('oblast_istrazivanja'); ?>
-						<h2><?php _e( 'Ангажовање у настави', 'sfb' ); ?></h2>
-						<?php the_field('angazovanje_u_nastavi'); ?>
-						<h2><?php _e( 'Одабрани научни радови', 'sfb' ); ?></h2>
-						<?php the_field('odabrani_naucni_radovi'); ?>
-
+					<div class="ostali-detalji">
+						<?php the_content(); ?>
+						<div class="oblast">	
+							<h2><?php _e( 'Ужа научна област', 'sfb' ); ?></h2>
+							<?php the_field('naucna_oblast'); ?>
+						</div>
+						<div class="oblast">	
+							<h2><?php _e( 'Област истраживања', 'sfb' ); ?></h2>
+							<?php the_field('oblast_istrazivanja'); ?>
+						</div>
+						<div class="oblast">
+							<h2><?php _e( 'Ангажовање у настави', 'sfb' ); ?></h2>
+							<?php the_field('angazovanje_u_nastavi'); ?>
+						</div>
+						<div class="oblast">
+							<h2><?php _e( 'Одабрани научни радови', 'sfb' ); ?></h2>
+							<?php the_field('odabrani_naucni_radovi'); ?>
+						</div>	
+					</div><!-- /ostali-detalji -->
 
 				<?php
 

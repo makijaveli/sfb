@@ -99,8 +99,7 @@ if (is_tree(718)) {
 							</div>
 							<div class="detalji-lista">
 								<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
-								<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
-								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
+								<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>								
 							</div>
 						</div>
 					</div><!-- /custom-prof -->
