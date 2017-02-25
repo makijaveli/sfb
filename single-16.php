@@ -80,7 +80,7 @@ get_header();
 								<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
 								<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
 								<?php if(get_field('cv_link')): ?>
-									<span> </span><a href="<?php the_field('cv_link'); ?>"><?php _e( 'Прогледајте CV', 'sfb' );?></a> <br>
+									<span> </span><a href="<?php the_field('cv_link'); ?>"><?php _e( 'Погледајте CV', 'sfb' );?></a> <br>
 								<?php endif; ?>
 							</div>
 						</div>
