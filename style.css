@@ -349,8 +349,9 @@ nav ul li a {
 	/*z-index: 9999;*/
 	/*min-height: 430px;*/
 	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-   -moz-appearance: ;-webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   -moz-appearance: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
    display: table-cell;
 }
 
@@ -1935,7 +1936,7 @@ aside.knjiga ul li {
     	background-color: #ac0a3a;
     }
 
-    .orangeres .slicknav_menu {
+    .res.orange .slicknav_menu {
     	display:block;
         background-color: #d75904;
         background-size: 105px 30px;
@@ -1943,7 +1944,7 @@ aside.knjiga ul li {
         background-position: 20px 10px;
     }
 
-    .redres .slicknav_menu {
+    .res.red .slicknav_menu {
     	display:block;
         background-color: #ac0a3a;
         background-size: 105px 30px;
@@ -1951,7 +1952,7 @@ aside.knjiga ul li {
         background-position: 20px 10px;
     }
 
-    .blueres .slicknav_menu {
+    .res.blue .slicknav_menu {
     	display:block;
         background-color: #1a9ebc;
         background-size: 105px 30px;
@@ -1959,7 +1960,7 @@ aside.knjiga ul li {
         background-position: 20px 10px;
     }
 
-    .greenres .slicknav_menu {
+    .res.green .slicknav_menu {
     	display:block;
         background-color: #04814b;
         background-size: 105px 30px;
@@ -2006,7 +2007,7 @@ aside.knjiga ul li {
     }
 
     .ressocial li {
-    	float: left;
+		float: left;
     	display: inline !important;
     }
 
@@ -2190,6 +2191,14 @@ aside.knjiga ul li {
 
 	.odsek-prof:nth-child(2n) {
 
+	}
+
+	.odsek-kat h4 {
+		left: 0; 
+		right: 0; 
+		margin-left: auto; 
+		margin-right: auto; 
+		width: 282px;
 	}
 
 	.odsek-prof img {

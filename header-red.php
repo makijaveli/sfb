@@ -50,7 +50,7 @@
 
 <body <?php body_class(); ?>>
 
-<div class="redres">
+<div class="res red">
 	</div>
 
 	<header class="red">

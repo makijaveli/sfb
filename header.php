@@ -50,6 +50,9 @@
 
 <body <?php body_class(); ?>>
 
+<div class="res">
+	</div>
+
 	<header>
 		
 		<div class="headerup">
