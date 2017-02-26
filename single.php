@@ -11,7 +11,12 @@ get_header();
 
 		<aside class="page">
 
-		<h3><?php foreach((get_the_category()) as $category) { echo $category->cat_name; } ?></h3>
+		<h3><?php if(is_single()) {
+					$category = get_the_category(); 
+					$title = $category[0]->cat_name;
+					} else {
+					$title  = __('Blog - Latest News', 'avia_framework'); //default blog title
+					} echo $title; ?></h3>
 		
 			
 		<?php
@@ -41,9 +46,9 @@ get_header();
 		foreach( $wpex_query->posts as $post ) : setup_postdata( $post ); ?>
 			
 			<ul>
-				<li>
+				<li class="singleside">
 					<ul>
-						<li><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></li>
+						<li class="singleside"><a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( the_title_attribute( 'echo=0' ) ); ?>"><?php the_title(); ?></a></li>
 					</ul>
 				</li>
 			</ul>

@@ -502,6 +502,7 @@ section.news {
 
 .news-thumb img {
 	width: 35px;
+	height: 35px;
 }
 
 .ctanews {
@@ -882,6 +883,10 @@ aside {
 
 aside ul li {
 	margin-bottom: 30px;
+}
+
+aside ul li.singleside {
+	margin-bottom: 10px;
 }
 
 aside a {
@@ -1268,6 +1273,7 @@ header.green {
 
 .social {
 	float: right;
+	margin-bottom: 20px;
 }
 
 .social a i {
@@ -1488,6 +1494,19 @@ aside .subpages .children {
 
 .breadcrumb.green span {
 	color: #04814b;
+}
+
+.page-content h3 {
+	font-size: 17px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+	color: #355c59;
+	font-weight: 700;
+}
+
+.break {
+	margin-bottom: 20px;
+	overflow: hidden;
 }
 
 .page-content.red h1 {
@@ -1937,6 +1956,55 @@ aside.knjiga ul li {
 #tabs iframe h1 { display: none !important; }
 
 /* End Book */
+
+/* Studijski program */
+
+.cards.studpro {
+	position: initial;
+}
+
+.card.sp {
+	float: left;
+	width: 25%;
+	padding: 15px 15px 0 15px;
+	/*z-index: 9999;*/
+	height: 270px;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+   -moz-appearance: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   -webkit-transition: all 0.5s cubic-bezier(0.165, 0.84, 0.44, 1);
+   display: block;
+}
+
+.cardtitle.studpro {
+	display: block;
+	height: auto;
+	line-height: 30px;
+}
+
+.cardtitle.studpro h2 {
+	margin-top: -5px;
+}
+
+.cardtitle.studpro h2 a{
+	color: #fff;
+}
+
+.cardtitle.studpro span {
+	color: #fff;
+	font-size: 17px;
+}
+
+.card.sp:hover {
+  -webkit-transform: scale(1,1);
+  transform: scale(1,1);
+}
+
+.card.sp:hover::after {
+    opacity: 1;
+}
+
+/* End Studijski program */
 
 
 @media only screen and (min-width:320px) {

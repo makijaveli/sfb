@@ -14,8 +14,6 @@ get_header();
 
 				<div class="cattitle"> 
 
-					<?php if (stl_is_current_cyrillic()) { ?>
-
 						<h1><?php _e( 'Резултати претраге', 'sfb' ); ?></h1>
 
 				</div>
