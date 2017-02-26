@@ -1504,6 +1504,12 @@ aside .subpages .children {
 	font-weight: 700;
 }
 
+.page-content h3 {
+	color: #696969;
+	margin-bottom: 5px;
+}
+  
+
 .break {
 	margin-bottom: 20px;
 	overflow: hidden;

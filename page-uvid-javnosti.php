@@ -52,10 +52,7 @@ get_header();
 		</aside>
 
 		<div class="page-content">
-
-
-
-				    <h1><?php the_title() ?></h1>
+        		    <h1><?php the_title() ?></h1>
 
 				    <?php
                     $args = array('cat' => 35, 'posts_per_page'=>-1); //doktorske disertacije
@@ -63,17 +60,12 @@ get_header();
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				    ?>
-                        <h3><?php the_title(); ?></h3>
-                        <p><?php the_content(); ?></p>
-
-
-
-                    <?php endwhile; ?> 
-
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
+                    <?php endwhile; ?>
                      <?php else : ?>
                         <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
+                    <?php endif; ?> 
 
                     <div class="break"></div>
 
@@ -83,17 +75,13 @@ get_header();
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				    ?>
-                        <h3><?php the_title(); ?></h3>
-                        <p><?php the_content(); ?></p>
-
-
-
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
                     <?php endwhile; ?> 
 
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
+                    <?php else : ?>
+                        <p><?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+                    <?php endif; ?> 
 
                     <div class="break"></div>
 
@@ -103,20 +91,13 @@ get_header();
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				    ?>
-                        <h3><?php the_title(); ?></h3>
-                        <p><?php the_content(); ?></p>
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
 
-
-
-                    <?php endwhile; ?> 
-
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
-
-
-					
+                    <?php endwhile; ?>
+                    <?php else : ?>
+                        <p><?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+                    <?php endif; ?>					
      	</div>
 	
 	</main>
