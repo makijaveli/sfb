@@ -43,7 +43,7 @@
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
 
 		<?php wp_enqueue_script( 'jquery-ui-tabs' ); ?>
-
+			
 		<?php wp_head(); ?>
 
 	</head>

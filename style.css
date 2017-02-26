@@ -1561,6 +1561,17 @@ aside .subpages .children {
 	clear: both;
 }
 
+.inner {
+	display: none;
+}
+
+ a.toggle {
+	width: 100%;
+	display: block;
+	padding: 0 0 .75em 0;
+ }
+
+
 .page-content.red img {
 	border-color: #ac0a3a !important; 
 }
@@ -1799,9 +1810,9 @@ nav.main-nav.green {
 }
 
 .category-post {
-	padding-bottom: 20px;
-	border-bottom: 1px solid #3d3d3d;
-	margin-bottom: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #9a9a9a;
+	margin-bottom: 10px;
 	overflow: hidden;
 }
 
@@ -1811,9 +1822,9 @@ nav.main-nav.green {
 }
 
 .category-post h1 {
-	width: 50%;
+	width: 90%;
 	display: inline-block;
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }
 
 .category-post h1 a {
@@ -1824,14 +1835,15 @@ nav.main-nav.green {
 }
 
 .catinfo {
-	color: #3d3d3d;
+	color: #9a9a9a;
 	font-size: 17px;
 	font-weight: 400;
 	line-height: 27px;
+	margin-left: 75px;
 }
 
 .catinfo a {
-	color: #3d3d3d;
+	color: #9a9a9a;
 	font-size: 17px;
 	text-decoration: underline;
 }
