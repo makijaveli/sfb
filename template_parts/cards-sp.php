@@ -1,8 +1,8 @@
 <?php  
-$link_su = get_sub_field('link_su');
-$link_tmp = get_sub_field('link_tmp');
-$link_paih = get_sub_field('link_paih');
-$link_ei = get_sub_field('link_ei');
+$link_su = get_field('link_su');
+$link_tmp = get_field('link_tmp');
+$link_paih = get_field('link_paih');
+$link_ei = get_field('link_ei');
 
 ?>
 
