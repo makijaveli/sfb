@@ -1577,6 +1577,22 @@ aside .subpages .children {
 	padding: 0 0 .75em 0;
  }
 
+a.nabavka-stil h3 {
+	color: #355C59!important;
+}
+
+
+a.nabavka-stil h3:before {
+    content: "\f18e";
+    font-family: FontAwesome;
+    float: left;
+    margin-right: 10px;
+    padding-left: 2px;
+    color: #355C59;
+	padding-top: 2px; 
+	
+}
+
 
 .page-content.red img {
 	border-color: #ac0a3a !important; 

@@ -63,9 +63,9 @@ get_header();
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				    ?>
                     <ul class="accordion">
-                        <a class="toggle" href="javascript:void(0);"><h3><?php the_title(); ?></h3></a>
+                        <a class="toggle nabavka-stil" href="javascript:void(0);"><h3><?php the_title(); ?></h3></a>
                          <div class="inner">
-                            <div class="li"><p><?php the_content(); ?></p></div>
+                            <div class="li"><?php the_content(); ?></div>
                         </div>
 
                      </ul>

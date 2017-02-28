@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Uvid javnosti
+Template Name: Javna odbrana
 */
 
 get_header();
@@ -55,7 +55,7 @@ get_header();
         		    <h1><?php the_title() ?></h1>
 
 				    <?php
-                    $args = array('cat' => 35, 'posts_per_page'=>-1); //doktorske disertacije
+                    $args = array('cat' => 45, 'posts_per_page'=>-1); //doktorske disertacije
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
@@ -70,7 +70,7 @@ get_header();
                     <div class="break"></div>
 
                     <?php
-                    $args = array('cat' => 36, 'posts_per_page'=>-1); //master radovi
+                    $args = array('cat' => 46, 'posts_per_page'=>-1); //master radovi
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
@@ -86,7 +86,7 @@ get_header();
                     <div class="break"></div>
 
                     <?php
-                    $args = array('cat' => 37, 'posts_per_page'=>-1); //specijalisticki radovi
+                    $args = array('cat' => 47, 'posts_per_page'=>-1); //specijalisticki radovi
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
