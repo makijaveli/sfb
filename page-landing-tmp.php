@@ -102,7 +102,7 @@ get_header( 'orange' );
 
 					</div>
 
-					<p><?php the_content(); ?></p>
+					<?php the_content(); ?>
 
 					
 					<?php /*
