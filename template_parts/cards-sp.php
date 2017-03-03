@@ -37,7 +37,7 @@ $link_ei = get_field('link_ei');
 
                         <span><?php _e( 'Студијски програм', 'sfb' ); ?></span>
 
-						<h2><a href="<?php echo $link_paih; ?>"><?php _e( 'Пејзажна архитектура и хортикултура', 'sfb' ); ?></a></h2>
+						<h2><a href="<?php echo $link_paih; ?>"><?php _e( 'Пејзажна архитектура', 'sfb' ); ?></a></h2>
 
 					</div>
 
