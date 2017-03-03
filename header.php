@@ -22,7 +22,7 @@
 
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/font-awesome/css/font-awesome.min.css">
 
-		<!--<link href="css/jquery.bxslider.css" rel="stylesheet" />-->
+		<link href="<?php bloginfo('template_directory'); ?>/css/jquery.bxslider.css" rel="stylesheet" />
 
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext" rel="stylesheet">
 
@@ -34,7 +34,7 @@
 
 		jQuery(document).ready(function(){
 		  jQuery('.slider').bxSlider({
-		  auto: true
+		  auto: false
   			});
 		});
 
