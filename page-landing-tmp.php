@@ -251,7 +251,7 @@ get_header( 'orange' );
 	                    $link_kat = get_sub_field('kat-link');
 	                    $naslov_kat = get_sub_field('kat-naslov');  ?>
 
-	                     <div class="odsek-kat blue">
+	                     <div class="odsek-kat orange">
 
 				                        <?php if( $link_kat ): ?>
 				                            <a href="<?php echo $link_kat; ?>">
