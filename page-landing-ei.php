@@ -63,7 +63,7 @@ get_header( 'blue' );
 
 		<div class="page-content blue">
 
-				<?php
+				<?php /*
 					$strategija_link = get_field('strategija-link');
 					$istorijat_link = get_field('istorijat-link');
 					$zvanja_link = get_field('zvanja-link');
@@ -71,6 +71,7 @@ get_header( 'blue' );
 					$studije_link = get_field('studije-link');
 					$studentski_zivot_link = get_field('studentski-zivot-link');
 					$delatnost_link = get_field('delatnost-tekst-link');
+					*/
 				?>
 
 

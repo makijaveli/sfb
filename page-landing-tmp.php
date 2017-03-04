@@ -64,7 +64,7 @@ get_header( 'orange' );
 		<div class="page-content orange">
 
 				<?php 
-
+				/*
 				$strategija_link = get_field('strategija-link');
 
 				$istorijat_link = get_field('istorijat-link');
@@ -86,20 +86,17 @@ get_header( 'orange' );
 				$saradnja_link = get_field('saradnja-link');
 
 				$karijera_link = get_field('karijera-link');
-
+				*/
 				?>
 
 				    <h1><?php the_title() ?></h1>
 
 				    <div class="social orange">
-
 							<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 							<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 							<a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
 							<a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
 							<a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
-						
-
 					</div>
 
 					<?php the_content(); ?>
