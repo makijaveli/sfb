@@ -26,7 +26,15 @@ get_header(); ?>
 
 					<div class="category-post">
 
-						<?php _e(nl2br( "Вратите се на почетну страну.\n", 'sfb' )); ?><a class="s" href="<?php echo home_url(); ?>">
+						<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+							<?php _e(nl2br( "Back to home page.\n", 'sfb' )); ?><a class="s" href="<?php echo home_url(); ?>">
+
+						<?php } else { ?>
+
+							<?php _e(nl2br( "Вратите се на почетну страну.\n", 'sfb' )); ?><a class="s" href="<?php echo home_url(); ?>">
+
+						<?php } ?>
 
 						<?php _e( 'Почетна страна', 'sfb' ); ?></a>
 

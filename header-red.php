@@ -72,7 +72,7 @@
 				<div class="seacrhexpand">
 
 					<form class="Search red" method="get" action="<?php bloginfo('home'); ?>/">
-				  <input type="text" class="Search-box red" name="s" id="Search-box" placeholder="Pretraga...">
+				  <input type="text" class="Search-box red" name="s" id="Search-box" placeholder="Search...">
 				  <label for="Search-box" class="Search-box-label">
 				    <span class="fa fa-search sb-icon-search"></span>
 				  </label>

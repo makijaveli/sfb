@@ -84,10 +84,21 @@
 
 			</div>
 
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+			<?php _e(nl2br( "University of Belgrade - Faculty of Forestry
+							 Knez Viseslav 1, 11030 Belgrade
+							  phone: (011) 3053-990; fax: (011) 2545-485
+							   Site created", 'sfb' )); ?> <a href="http://mweb.rs" target="_blank">mweb</a>
+
+			<?php } else { ?>
+
 			<?php _e(nl2br( "Универзитет у Београду — Шумарски факулет
 						Кнеза Вишеслава 1, 11030 Београд
 						тел: (011) 3053-990; факс: (011) 2545-485
 						Сајт креирао", 'sfb' )); ?> <a href="http://mweb.rs" target="_blank">mweb</a>
+
+			<?php } ?>
 
 		</div>
 
@@ -171,7 +182,7 @@
 	</script>
 
 	<script>
-	var end = new Date('03/01/2017 00:00:00');
+	var end = new Date('04/01/2017 00:00:00');
 
 	    var _second = 1000;
 	    var _minute = _second * 60;

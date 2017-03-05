@@ -69,10 +69,10 @@ get_header();
 
 							<h1><?php the_title() ?></h1>
 
-							<span>Telefon: </span><?php the_field('telefon'); ?> <br>
-							<span>E-mail: </span><?php the_field('email'); ?> <br>
-							<span>Kabinet: </span><?php the_field('kabinet'); ?> <br>
-							<span>Konsultacije: </span><?php the_field('konsultacije'); ?> <br>
+							<span><?php _e( 'Телефон', 'sfb' ); ?>: </span><?php the_field('telefon'); ?> <br>
+							<span><?php _e( 'Е-маил', 'sfb' ); ?>: </span><?php the_field('email'); ?> <br>
+							<span><?php _e( 'Кабинет', 'sfb' ); ?>: </span><?php the_field('kabinet'); ?> <br>
+							<span><?php _e( 'Консултације', 'sfb' ); ?>: </span><?php the_field('konsultacije'); ?> <br>
 							<span>CV: </span><a href="<?php echo $file; ?>">Preuzmite na srpskom</a> <br>
 							<span class="nod">CV: </span><a href="<?php echo $file2; ?>">Preuzmite na engleskom</a> <br>
 

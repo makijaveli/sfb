@@ -1,0 +1,228 @@
+# Translation of WordPress - Development in Serbian
+# This file is distributed under the same license as the WordPress - Development package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2016-12-04 20:03:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: GlotPress/2.3.0-alpha\n"
+"Language: en_US\n"
+"Project-Id-Version: WordPress - Development\n"
+
+#: sfb slider
+msgid "Види више"
+msgstr "See more"
+
+#: sfb cards
+msgid "Шумарство"
+msgstr "Forestry"
+
+#: sfb cards
+msgid "Технологије, менаџмент и пројектовање намештаја и производа од дрвета"
+msgstr "Technology, management and design of furniture and wood products"
+
+#: sfb cards
+msgid "Пејзажна архитектура и хортикултура"
+msgstr "Landscape architecture and horticulture"
+
+#: sfb cards
+msgid "Еколошки инжењеринг у заштити земљишних и водeних ресурса"
+msgstr "Environmental engineering in protecting land and water resources"
+
+#: sfb news
+msgid "Види све вести факултетa"
+msgstr "See all faculty news"
+
+#: sfb news
+msgid "Види све вести за студенте"
+msgstr "See all news for students"
+
+#: sfb footer
+msgid "У сусрет јубилеју"
+msgstr "Towards the Jubilee"
+
+#: sfb footer
+msgid "година"
+msgstr "years"
+
+#: sfb footer
+msgid "Шумарског факултета одбројавање"
+msgstr "Faculty of Forestry countdown"
+
+#: sfb footer
+msgid "Брзи линкови"
+msgstr "Fast links"
+
+#: sfb footer
+msgid "Факултет"
+msgstr "Faculty"
+
+#: sfb footer
+msgid "Студијски програм"
+msgstr "Study programs"
+
+#: sfb footer
+msgid "Студенти"
+msgstr "Students"
+
+#: sfb footer
+msgid "Наука"
+msgstr "Science"
+
+#: sfb footer
+msgid "Сарадња"
+msgstr "Сooperation"
+
+#: sfb footer
+msgid "Услуге"
+msgstr "Services"
+
+#: sfb footer
+msgid "Наставне базе"
+msgstr "Тeaching base"
+
+#: sfb footer
+msgid "Универзитет у Београду — Шумарски факулет Кнеза Вишеслава 1, 11030 Београд тел: (011) 3053-990; факс: (011) 2545-485 Сајт креирао"
+msgstr "University of Belgrade - Faculty of Forestry Knez Viseslav 1, 11030 Belgrade phone: (011) 3053-990; fax: (011) 2545-485 Site created"
+
+#: sfb odsek
+msgid "Актуелности"
+msgstr "News"
+
+#: sfb odsek
+msgid "Види све актуелности"
+msgstr "See all news"
+
+#: sfb odsek
+msgid "Наставници и сарадници"
+msgstr "Teachers and associates"
+
+#: sfb odsek
+msgid "Редовни професор"
+msgstr "Regular professor"
+
+#: sfb odsek
+msgid "Ванредни професор"
+msgstr "Associate Professor"
+
+#: sfb odsek
+msgid "Доцент"
+msgstr "Docent"
+
+#: sfb odsek
+msgid "Сарадник у настави"
+msgstr "Teaching Associate"
+
+#: sfb odsek
+msgid "Associate"
+msgstr "News"
+
+#: sfb odsek
+msgid "Види комплетну листу"
+msgstr "See complete list"
+
+#: sfb odsek
+msgid "Катедре"
+msgstr "Department"
+
+#: sfb odsek
+msgid "Шумaрски факултет"
+msgstr "Faculty of Forestry"
+
+#: sfb odsek
+msgid "Е-маил"
+msgstr "E-mail"
+
+#: sfb odsek
+msgid "Телефон"
+msgstr "Phone"
+
+#: sfb odsek
+msgid "Кабинет"
+msgstr "Cabinet"
+
+#: sfb odsek
+msgid "Консултације"
+msgstr "Consultation"
+
+#: sfb odsek
+msgid "Страница није пронађена"
+msgstr "Page not found"
+
+#: sfb odsek
+msgid "Вратите се на почетну страну"
+msgstr "Back to home page"
+
+#: sfb odsek
+msgid "Почетна страна"
+msgstr "Home page"
+
+#: sfb odsek
+msgid "Тренутно нема постављених материјала"
+msgstr "No materials"
+
+#: sfb odsek
+msgid "Шифра предмета:"
+msgstr "Course code"
+
+#: sfb odsek
+msgid "Студијски програм:"
+msgstr "Study program:"
+
+#: sfb odsek
+msgid "Врста и ниво студија:"
+msgstr "The type and level of study:"
+
+#: sfb odsek
+msgid "Наставник:"
+msgstr "Professor:"
+
+#: sfb odsek
+msgid "Статус предмета:"
+msgstr "No materials"
+
+#: sfb odsek
+msgid "Број ESPB:"
+msgstr "Course status:"
+
+#: sfb odsek
+msgid "Услов:"
+msgstr "No materials"
+
+#: sfb odsek
+msgid "Циљ предмета"
+msgstr "Conditions"
+
+#: sfb odsek
+msgid "The outcome of the subject"
+msgstr "No materials"
+
+#: sfb odsek
+msgid "Садржај предмета"
+msgstr "Contents"
+
+#: sfb odsek
+msgid "Maтеријал за наставу"
+msgstr "Teaching materials"
+
+#: sfb odsek
+msgid "Резултати претраге"
+msgstr "Results"
+
+#: sfb odsek
+msgid "Ужа научна област"
+msgstr "Special topics"
+
+#: sfb odsek
+msgid "Област истраживања"
+msgstr "Research interests"
+
+#: sfb odsek
+msgid "Ангажовање у настави"
+msgstr "Engaging Teaching"
+
+#: sfb odsek
+msgid "Одабрани научни радови"
+msgstr "Selected papers"

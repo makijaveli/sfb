@@ -40,7 +40,15 @@ get_header( 'red' );
 				</div><!-- #primary-sidebar -->
 			<?php endif; ?>
 
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+			<h2 class="red"><?php echo get_the_title( 5615 ); ?></h2>	
+
+			<?php } else { ?>		
+
 			<h2 class="red"><?php echo get_the_title( 1136 ); ?></h2>
+
+			<?php } ?>
 
 			<?php if ( is_active_sidebar( 'widget-area-3' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
@@ -118,7 +126,7 @@ get_header( 'red' );
 					*/ ?>
 
 				<div class="block-landing block-news">	
-					<h2><?php _e('Актуелности', 'mweb' ); ?></h2>
+					<h2><?php _e('Актуелности', 'sfb' ); ?></h2>
 
 					<div class="odsek-all-news">
 						<?php 
@@ -138,13 +146,13 @@ get_header( 'red' );
 					</div>	
 
 					<div class="cta">
-						<a href="<?php echo get_category_link(24); ?>">	Види све актуелности <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						<a href="<?php echo get_category_link(24); ?>">	<?php _e('Види све актуелности', 'sfb'); ?> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 					</div>
 				</div><!-- /block-news -->
 
 
 					
-					<h2><?php _e( 'Наставници и сарадници', 'mweb' ); ?></h2>
+					<h2><?php _e( 'Наставници и сарадници', 'sfb' ); ?></h2>
 					<?php 
 						$args = array ( 'category' => 28, 'posts_per_page' => 5, 'orderby' => 'rand');
 						$myposts = get_posts( $args );
@@ -167,17 +175,17 @@ get_header( 'red' );
 							<h4><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h4>
 
 							<?php if(in_category(17)): ?>
-								<span><?php _e( 'Редовни професор', 'mweb' ); ?></span>
+								<span><?php _e( 'Редовни професор', 'sfb' ); ?></span>
 							<?php elseif(in_category(18)): ?>
-								<span><?php _e( 'Ванредни професор', 'mweb' ); ?></span>
+								<span><?php _e( 'Ванредни професор', 'sfb' ); ?></span>
 							<?php elseif(in_category(19)): ?>
-								<span><?php _e( 'Доцент', 'mweb' ); ?></span>
+								<span><?php _e( 'Доцент', 'sfb' ); ?></span>
 							<?php elseif(in_category(20)): ?>
-								<span><?php _e( 'Асистент', 'mweb' ); ?></span>
+								<span><?php _e( 'Асистент', 'sfb' ); ?></span>
 							<?php elseif(in_category(21)): ?>
-								<span><?php _e( 'Сарадник у настави', 'mweb' ); ?></span>					
+								<span><?php _e( 'Сарадник у настави', 'sfb' ); ?></span>					
 							<?php elseif(in_category(31)): ?>
-								<span><?php _e( 'Стручни сарадник', 'mweb' ); ?></span>			
+								<span><?php _e( 'Стручни сарадник', 'sfb' ); ?></span>			
 							<?php endif; ?>	
 
 							
@@ -188,7 +196,7 @@ get_header( 'red' );
 
 
 					<div class="cta">
-						<a href="<?php echo get_permalink_current_language(2952); ?>"><?php _e( 'Види комплетну листу', 'mweb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						<a href="<?php echo get_permalink_current_language(2952); ?>"><?php _e( 'Види комплетну листу', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 					</div>
 
 					
@@ -211,7 +219,7 @@ get_header( 'red' );
 
 					
 
-						<h2><?php _e( 'Катедре', 'mweb' ); ?></h2>
+						<h2><?php _e( 'Катедре', 'sfb' ); ?></h2>
 						
 
 	                    <?php if( have_rows('katedre') ): ?>

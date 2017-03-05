@@ -27,7 +27,7 @@ if (is_tree(718)) {
 } elseif (is_tree(2628)) { 
 	get_header('green');  
 } else {
-	get_header();
+	get_header('orange');
 } 
 
 ?>
@@ -38,7 +38,7 @@ if (is_tree(718)) {
 	
 	<div class="wrapper">
 
-		<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; else echo 'orange'; ?>">
 
 			<?php $url = home_url();?>
 
@@ -67,7 +67,7 @@ if (is_tree(718)) {
 
 	<main>
 
-		<aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; else echo 'orange'; ?>">
 			
 			
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
@@ -78,7 +78,7 @@ if (is_tree(718)) {
 
 		</aside>
 
-		<div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; else echo 'orange'; ?>">
 
 
 				<?php
