@@ -1,8 +1,4 @@
-<?php 
-
-/*
-Template Name: Studijski programi
-*/
+<?php /* Template Name: Studijski prog */
 
 get_header();
 
@@ -41,14 +37,12 @@ get_header();
 
 	<main>
 
-		<aside class="page">
-			
-			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+		<aside class="page">				
+			<?php if ( is_active_sidebar( 'widget-area-2' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-					<?php dynamic_sidebar( 'widget-area-1' ); ?>
+					<?php dynamic_sidebar( 'widget-area-2' ); ?>
 				</div><!-- #primary-sidebar -->
 			<?php endif; ?>
-
 		</aside>
 
 		<div class="page-content">
