@@ -1,44 +1,10 @@
-<?php /* Template Name: Osoblje lista - TMP */
-
-// f-ja koja ispituje da li je stranica child stranica za odseke
-
-	function is_tree($pid)
-		{
-		 global $post;
-		 $ancestors = get_post_ancestors($post->$pid);
-		 $root = count($ancestors) - 1;
-		 $parent = $ancestors[$root];
-		 if(is_page() && (is_page($pid) || $post->post_parent == $pid || in_array($pid, $ancestors)))
-		 {
-		 return true;
-		 }
-		 else
-		 {
-		 return false;
-		 }
-		};
-
-if (is_tree(718)) { 
-	get_header('red'); 
-} elseif (is_tree(1085)) { 
-	get_header('orange'); 
-} elseif (is_tree(1083)) { 
-	get_header('blue');
-} elseif (is_tree(2628)) { 
-	get_header('green');  
-} else {
-	get_header();
-} 
-
-?>
-
-
+<?php /* Template Name: Osoblje lista - svi */ get_header(); ?>
 
 <div class="breadcrumbs">
 	
 	<div class="wrapper">
 
-		<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<div class="breadcrumb">
 
 			<?php $url = home_url();?>
 
@@ -67,7 +33,7 @@ if (is_tree(718)) {
 
 	<main>
 
-		<aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<aside class="page">
 			
 			
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
@@ -78,12 +44,14 @@ if (is_tree(718)) {
 
 		</aside>
 
-         <div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<div class="page-content">
+
 
 				<?php
-				   $args = array('cat' => 29, 'posts_per_page'=>-1, 'orderby'=>title, 'order' => ASC);
+				   $args = array('cat' => 16, 'posts_per_page'=>20, 'orderby'=>title, 'paged' => get_query_var( 'paged' ), 'order' => ASC);
 				   $wp_query = new WP_Query($args);
-				   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+
+                   while ( $wp_query->have_posts() ) : $wp_query->the_post();
 				?>
 
 					<?php $image = get_field('slika'); ?>
@@ -115,11 +83,11 @@ if (is_tree(718)) {
 						</div>
 					</div><!-- /custom-prof -->
 
-
-
 				<?php endwhile; ?> 
 
-				<?php  endif; ?> 
+               <div class="pagination">
+                    <?php html5wp_pagination(); ?>
+                </div>
 				
      	</div>
 
@@ -130,6 +98,4 @@ if (is_tree(718)) {
 </div><!-- wrapper -->
 
 
-<?php 
-	get_footer('orange'); 
-  ?>
+<?php get_footer(); ?>
