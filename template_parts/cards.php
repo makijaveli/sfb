@@ -5,6 +5,8 @@
 					<div class="cardtitle">
 		
 						<h2><a href="<?php echo get_page_link(2628); ?>"><?php _e( 'Шумарство', 'sfb' ); ?></a></h2>
+
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
 	
 					</div>
 
@@ -18,6 +20,8 @@
 
 						<h2><a href="<?php echo get_page_link(1085); ?>"><?php _e( 'Технологије, менаџмент и пројектовање намештаја и производа од дрвета', 'sfb' ); ?></a></h2>
 
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+
 					</div>
 
 					<?php the_field('card-tehnologije'); ?>
@@ -30,6 +34,8 @@
 
 						<h2><a href="<?php echo get_page_link(718); ?>"><?php _e( 'Пејзажна архитектура и хортикултура', 'sfb' ); ?></a></h2>
 
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
+
 					</div>
 
 					<?php the_field('card-pejzaz'); ?>
@@ -41,6 +47,8 @@
 					<div class="cardtitle">
 
 						<h2><a href="<?php echo get_page_link(1083); ?>"><?php _e( 'Еколошки инжењеринг у заштити земљишних и водeних ресурса', 'sfb' ); ?></a></h2>
+
+						<i class="fa fa-angle-down" aria-hidden="true"></i>
 
 					</div>
 

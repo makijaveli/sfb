@@ -2039,6 +2039,10 @@ aside.knjiga ul li {
     opacity: 1;
 }
 
+.fa-angle-down {
+		display: none !important;
+	}
+
 /* End Studijski program */
 
 
@@ -2360,6 +2364,20 @@ aside.knjiga ul li {
 	.profimg {
 		float: none;
 		margin-right: 0;
+	}
+
+	.profabout h1 {
+		text-align: center !important;
+	}
+
+	.profabout .pozicija {
+		text-align: center;
+	}
+
+	.fa-angle-down {
+		display: block !important;
+		color: #fff;
+		font-size: 16px !important;
 	}
 
 	.odsek-news {
