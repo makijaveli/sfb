@@ -2070,6 +2070,21 @@ aside.knjiga ul li {
 		display: inherit;
 	}
 
+	.cards.studpro {
+		bottom: 0px;
+		display: inherit;
+	}
+
+	.card.sp {
+		display: inherit;
+		float: none;
+		width: 100%;
+		padding-left: 20px;
+		/*z-index: 9999;*/
+		height: 150px;
+		box-shadow: none;
+		overflow: hidden;
+	}
 	/* #menu is the original menu */
     .js #menu {
         display:none;
@@ -2396,8 +2411,13 @@ aside.knjiga ul li {
 	}
 
 	table {
-		width: 100% !important;
-		overflow: auto;
+		width: 90% !important;
+		display: table;
+		overflow-y: scroll;
+	}
+
+	.table-studije table thead td {
+		width: 50% !important;
 	}
 
 }
