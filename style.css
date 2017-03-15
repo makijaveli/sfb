@@ -2442,7 +2442,7 @@ span.button {
 		background: #355c59;
 		cursor: pointer;  
 		height: 32px;
-		left: 20px;
+		right: 20px;
 		line-height: 30px;  
 		position: absolute;
 		text-align: center;
@@ -2460,7 +2460,7 @@ span.button {
 		margin-right: 0px;
 		top: 0;
 		width: 240px;
-		-webkit-transition: right 0.3s ease-in-out; 
+		-webkit-transition: left 0.3s ease-in-out; 
 		height: 100%;
 		padding: 5px;
 	}
@@ -2470,8 +2470,8 @@ span.button {
 	}
 
 	.slide {
-		left: 240px; 
-		-webkit-transition: right 0.3s ease-in-out; 
+		left: 0px; 
+		-webkit-transition: left 0.3s ease-in-out; 
 	}
 		
 
