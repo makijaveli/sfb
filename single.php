@@ -62,6 +62,10 @@ get_header();
 
 		</aside>
 
+		<div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content">
 
 				

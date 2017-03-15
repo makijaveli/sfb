@@ -69,6 +69,10 @@ get_header( 'green' );
 
 		</aside>
 
+		<div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content green">
 
 				<?php

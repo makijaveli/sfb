@@ -100,6 +100,10 @@ get_header();
 
 		</aside>
 
+		<div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content">
 
 				<div class="cattitle"> <?php single_cat_title(); ?> </div>

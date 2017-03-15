@@ -51,6 +51,10 @@ get_header();
 
 		</aside>
 
+        <div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content">
         		    <h1><?php the_title() ?></h1>
 

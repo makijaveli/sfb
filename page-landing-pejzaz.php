@@ -58,6 +58,10 @@ get_header( 'red' );
 
 		</aside>
 
+		<div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content red">
 				<?php
 					$strategija_link = get_field('strategija-link');

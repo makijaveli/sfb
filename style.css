@@ -881,6 +881,22 @@ aside {
 	margin-right: 20px;
 }
 
+aside.page.red a:nth-child(2) {
+	color: #ac0a3a;
+}
+
+aside.page.green a:nth-child(2) {
+	color: #04814b;
+}
+
+aside.page.orange a:nth-child(2) {
+	color: #d75904;
+}
+
+aside.page.blue a:nth-child(2) {
+	color: #1a9ebc;
+}
+
 aside ul li {
 	margin-bottom: 30px;
 }
@@ -2444,9 +2460,9 @@ span.button {
 		height: 32px;
 		right: 20px;
 		line-height: 30px;  
-		position: absolute;
+		position: fixed;
 		text-align: center;
-		top: 40px;  
+		top: 50px;  
 		width: 32px;
 		display: block;
 	}
@@ -2455,10 +2471,10 @@ span.button {
 		display: block;
 		background: #fff;
 		border: 1px solid #3d3d3d;
-		position: absolute;
+		position: fixed;
 		left: -240px;
 		margin-right: 0px;
-		top: 0;
+		top: 50px;
 		width: 240px;
 		-webkit-transition: left 0.3s ease-in-out; 
 		height: 100%;
@@ -2472,6 +2488,7 @@ span.button {
 	.slide {
 		left: 0px; 
 		-webkit-transition: left 0.3s ease-in-out; 
+		overflow-y: scroll;
 	}
 		
 

@@ -51,6 +51,10 @@ Template Name: Knjiga
 
 		</aside>
 
+		<div class="content">
+			<span class="button">+</span>
+		</div>
+
 		<div class="page-content">
 
 				<?php 
