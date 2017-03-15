@@ -2478,7 +2478,7 @@ span.button {
 		width: 240px;
 		-webkit-transition: left 0.3s ease-in-out; 
 		height: 100%;
-		padding: 5px;
+		padding: 5px 5px 50px 5px;
 	}
 
 	aside ul li a {
