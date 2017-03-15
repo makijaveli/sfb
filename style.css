@@ -2041,7 +2041,11 @@ aside.knjiga ul li {
 
 .fa-angle-down {
 		display: none !important;
-	}
+}
+
+span.button {
+	display: none;
+}
 
 /* End Studijski program */
 
@@ -2253,7 +2257,7 @@ aside.knjiga ul li {
 	}
 
 	aside {
-		display: none !important;
+		/*display: none !important;*/
 	}
 
 	.page-content {
@@ -2418,6 +2422,110 @@ aside.knjiga ul li {
 
 	.table-studije table thead td {
 		width: 50% !important;
+	}
+
+	.wrapper {
+		-webkit-transition: left 0.3s ease-in-out; 
+		position: relative;
+		left: 0;
+	}
+
+	.content {
+		height: 100%;
+  		width: 100%;
+	}
+
+	span.button {
+		background: #FFF;
+		-webkit-border-radius: 16px;
+		color: #fff;
+		background: #355c59;
+		cursor: pointer;  
+		height: 32px;
+		left: 20px;
+		line-height: 30px;  
+		position: absolute;
+		text-align: center;
+		top: 40px;  
+		width: 32px;
+		display: block;
+	}
+
+	aside {
+		display: block;
+		background: #fff;
+		border: 1px solid #3d3d3d;
+		position: absolute;
+		left: -240px;
+		margin-right: 0px;
+		top: 0;
+		width: 240px;
+		-webkit-transition: right 0.3s ease-in-out; 
+		height: 100%;
+		padding: 5px;
+	}
+
+	aside ul li a {
+		font-size: 14px !important;
+	}
+
+	.slide {
+		left: 240px; 
+		-webkit-transition: right 0.3s ease-in-out; 
+	}
+		
+
+	button {
+	width:100px;
+	height:100px;
+	display:inline-block;
+	font-family:Arial, "Helvetica", sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#fff;
+	text-decoration:none;
+	text-transform:uppercase;
+	text-align:center;
+	text-shadow:1px 1px 0px #07526e;
+	padding-top:6px;
+	margin-left:auto;
+	margin-right:auto;
+	left:30px;
+	position:relative;
+	cursor:pointer;
+	border: none;
+	background-image: linear-gradient(bottom, rgb(14,137,182) 0%, rgb(22,179,236) 100%);
+	border-radius: 5px;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 5px 0px 0px #07526e, 0px 10px 5px #999;
+	}
+
+	button:active {
+	top:3px;
+	box-shadow: inset 0px 1px 0px #2ab7ec, 0px 2px 0px 0px #07526e, 0px 5px 3px #999;
+	}
+
+	button:before {
+	font-family: 'socialfont';
+	font-size: 50px;
+	line-height: 1em;
+	font-weight: normal;
+	color: #fff;
+	content:"\F020";
+	width:85px;
+	height:90px;
+	display:block;
+	position:absolute;
+	padding-top:10px;
+	top:10px;
+	text-shadow: 1px 1px 2px #07526e;
+
+	}
+
+	button:active:before {
+	top: 7px;
+	font-size: 50px;
+	text-shadow: 0px 3px 0px #07526e, 0px 5px 1px #07526e/*, 3px 0px 1px #07526e, 3px 3px 1px #07526e,
+		-2px 0px 1px #68cff2*/;
 	}
 
 }

@@ -229,3 +229,14 @@
     }
 });
 	</script>
+
+	<script>
+		var $container = $('.page');
+
+  $button = $('.button');
+  $button.on('click', toggleMenu);
+
+function toggleMenu() {
+	$container.toggleClass('slide');
+}
+	</script>
