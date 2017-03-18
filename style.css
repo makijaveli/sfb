@@ -1116,6 +1116,52 @@ aside ul li ul li:first-child {
 	margin-bottom: 40px;
 }
 
+.science-platforms {
+	margin: 70px auto 0 auto;
+	display: table;
+}
+
+.science-platforms a {	
+	font-size:32px;
+	margin: 0 15px;
+	display: table;
+	float: left
+}
+
+.science-platforms a:hover {	
+	color:  rgba(53, 92, 89, 0.8);
+	text-decoration: none;
+}
+
+.science-platforms a:hover .fa-rotate-45 {
+		 -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+}
+
+.science-platforms .science-icons{
+	margin: 0 auto;
+	display: table
+}
+
+.science-platforms span {
+	font-size: 18px;
+}
+
+
+.science-platforms .fa-rotate-45  {
+	 -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
+
 /* End Profesor */
 
 /* Single */
