@@ -84,17 +84,17 @@ get_header();
 
 					<div class="articles">
 
-						<div class="news-thumb">
-							<?php if( get_field('kategorija_vesti_fakultet') == 'vazno' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/vazno.png" alt="Šumarski fakultet">
+						<div class="news-thumb fakultet">
+							<?php if( get_field('kategorija_vesti_fakultet') == 'vazno' ): //Važno?>
+								<i class="fa fa-bookmark-o" aria-hidden="true"></i>
 								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'zan' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti.png" alt="Šumarski fakultet">
+							<?php if( get_field('kategorija_vesti_fakultet') == 'zan' //Zanimljivosti ): ?>
+								<i class="fa fa-info" aria-hidden="true"></i>
 								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'adm' ): ?>
+							<?php if( get_field('kategorija_vesti_fakultet') == 'adm' //Admistracija ): ?>
 								<img src="<?php bloginfo('template_directory'); ?>/images/adm.png" alt="Šumarski fakultet">
 								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'fin' ): ?>
+							<?php if( get_field('kategorija_vesti_fakultet') == 'fin'//Finansije ): ?>
 								<img src="<?php bloginfo('template_directory'); ?>/images/finansije.png" alt="Šumarski fakultet">
 								<?php endif; ?>
 							<?php if( get_field('kategorija_vesti_fakultet') == 'stip' ): ?>
