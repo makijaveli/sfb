@@ -52,7 +52,7 @@
 
 
 				<?php
-				   $args = array('cat' => 19, 'posts_per_page'=>-1, 'orderby'=>title, 'order' => ASC););
+				   $args = array('cat' => 19, 'posts_per_page'=>-1, 'orderby'=>title, 'order' => ASC);
 				   $wp_query = new WP_Query($args);
 				   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				?>
