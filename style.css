@@ -1524,7 +1524,32 @@ aside .subpages .children {
 	margin-top: 10px;
 }
 
+.page-template-page-osoblje-lista-redovni aside .subpages li {
+	margin-bottom: 10px;
+}
 
+.page-template-page-osoblje-lista-redovni aside .subpages li a {
+	font-weight: 400;
+    font-size: 17px;
+}
+
+.page-template-page-osoblje-lista-docenti aside .subpages li {
+	margin-bottom: 10px;
+}
+
+.page-template-page-osoblje-lista-docenti aside .subpages li a {
+	font-weight: 400;
+    font-size: 17px;
+}
+
+#shailan-subpages-7,#shailan-subpages-9 ul li {
+	margin-bottom: 10px;
+}
+
+#shailan-subpages-7,#shailan-subpages-9 ul li a {
+	font-weight: 400;
+    font-size: 17px;
+}
 
 
 .breadcrumb.red a {
