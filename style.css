@@ -2109,6 +2109,43 @@ span.button {
 	display: none;
 }
 
+
+
+/* Ikonice za vesti */
+.icon-hold {
+	width: 50px;
+	height: 50px;
+	background-color: #355C59;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	display: table;
+}
+
+.icon-hold .fa{
+    color: #fff;
+    display: table;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 100;
+    padding-top: 12px;
+}
+
+.icon-hold.su {
+	background-color: #04814B;
+}
+.icon-hold.paih {
+	background-color: #AC0A3A;
+}
+.icon-hold.tmp {
+	background-color: #D85904;
+}
+.icon-hold.ei {
+	background-color: #1A9EBC;
+}
+
+
+
 /* End Studijski program */
 
 
