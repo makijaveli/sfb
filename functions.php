@@ -242,6 +242,21 @@ if (function_exists('register_sidebar'))
 
 }
 
+if (function_exists('register_sidebar'))
+{
+    // Define Sidebar Widget Area 1
+    register_sidebar(array(
+        'name' => __('Widget Area 6', 'html5blank'),
+        'description' => __('Description for this widget-area...', 'html5blank'),
+        'id' => 'widget-area-6',
+        'before_widget' => '<div id="%1$s" class="%2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<a>',
+        'after_title' => '</a>'
+    ));
+
+}
+
 
 // Remove wp_head() injected Recent Comment styles
 function my_remove_recent_comments_style()
