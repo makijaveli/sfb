@@ -93,18 +93,24 @@ get_header();
 
 					<div class="ostali-detalji">
 						<?php the_content(); ?>
-						<div class="oblast">	
-							<h2><?php _e( 'Ужа научна област', 'sfb' ); ?></h2>
-							<?php the_field('naucna_oblast'); ?>
-						</div>
-						<div class="oblast">	
-							<h2><?php _e( 'Област истраживања', 'sfb' ); ?></h2>
-							<?php the_field('oblast_istrazivanja'); ?>
-						</div>
-						<div class="oblast">
-							<h2><?php _e( 'Ангажовање у настави', 'sfb' ); ?></h2>
-							<?php the_field('angazovanje_u_nastavi'); ?>
-						</div>
+						<?php if(get_field('naucna_oblast')): ?>
+							<div class="oblast">	
+								<h2><?php _e( 'Ужа научна област', 'sfb' ); ?></h2>
+								<?php the_field('naucna_oblast'); ?>
+							</div>
+						<?php endif; ?>
+						<?php if(get_field('oblast_istrazivanja')): ?>
+							<div class="oblast">	
+								<h2><?php _e( 'Област истраживања', 'sfb' ); ?></h2>
+								<?php the_field('oblast_istrazivanja'); ?>
+							</div>
+						<?php endif; ?>	
+						<?php if(get_field('angazovanje_u_nastavi')): ?>
+							<div class="oblast">
+								<h2><?php _e( 'Ангажовање у настави', 'sfb' ); ?></h2>
+								<?php the_field('angazovanje_u_nastavi'); ?>
+							</div>
+						<?php endif; ?>	
 						<?php if(get_field('odabrani_naucni_radovi')): ?>
 							<div class="oblast">
 								<h2><?php _e( 'Одабрани научни радови', 'sfb' ); ?></h2>
