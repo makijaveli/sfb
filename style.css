@@ -992,7 +992,18 @@ aside ul li ul li:first-child {
 	margin-left: -20px; /* same as padding-left set on li */
 	width: 20px; /* same as padding-left set on li */
 }
+.page-content ul li ul {
+	margin-left: 40px;
+}
 
+.page-content ul li ul li {
+	padding-left: 0;
+}
+
+.page-content ul li ul li:before {
+	margin-left: -20px;
+	content: " "; /* FontAwesome Unicode */
+}
 
 .page-content ol li {
 	list-style-type: square;

@@ -108,8 +108,12 @@ get_header();
 						<?php if(get_field('odabrani_naucni_radovi')): ?>
 							<div class="oblast">
 								<h2><?php _e( 'Одабрани научни радови', 'sfb' ); ?></h2>
-								<?php the_field('odabrani_naucni_radovi'); ?>
-								<?php if( get_field('kobson') || get_field('scindex') ): ?>
+								<?php the_field('odabrani_naucni_radovi'); ?>								
+							</div>
+						<?php endif; ?>
+
+						<?php if( get_field('kobson') || get_field('scindex') ): ?>
+							<div class="oblast">
 								<div class="science-platforms">	
 									<?php if(get_field('kobson')): ?>							
 										<a href="<?php the_field('kobson'); ?>" target="_blank"><i class="fa fa-umbrella science-icons fa-rotate-45" aria-hidden="true"></i><span>KoBSON</span></a>
@@ -118,8 +122,7 @@ get_header();
 										<a href="<?php the_field('scindex'); ?>" target="_blank"><i class="fa fa-bug science-icons fa-rotate-45" aria-hidden="true"></i></i><span>SCIndex​</span></a>
 									<?php endif; ?>
 								</div>
-								<?php endif; ?>
-							</div>
+							</div>	
 						<?php endif; ?>
 					</div><!-- /ostali-detalji -->
 
