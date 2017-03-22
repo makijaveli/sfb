@@ -452,4 +452,8 @@ function get_permalink_current_language( $post_id )
 
 
 
+
+
+
+
 ?>
