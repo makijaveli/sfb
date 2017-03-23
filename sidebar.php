@@ -21,7 +21,11 @@
 	|| in_array(1818, $post->ancestors) 
 	|| in_array(1801, $post->ancestors)
 	|| in_array(1402, $post->ancestors)
-	|| is_page(1402) 
+	|| is_page(1402)
+	|| is_page(2379) 
+	|| is_page(2356) 
+	|| is_page(2372) 
+	|| is_page(2365)  
 	): ?>
 
    <aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">				
