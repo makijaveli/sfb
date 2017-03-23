@@ -99,7 +99,7 @@ if (is_tree(718)) {
 							<div class="block-servis">
 								<i class="fa fa-envelope-open-o" aria-hidden="true"></i>
 							</div>	
-							<span>Мејл</span>						</a>
+							<span>@sfb</span>						</a>
 						<a href="" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-pencil-square-o" aria-hidden="true"></i>
