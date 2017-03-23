@@ -1970,6 +1970,19 @@ nav.main-nav.green {
 	text-decoration: underline;
 }
 
+.catinfoins {
+	color: #9a9a9a;
+	font-size: 17px;
+	font-weight: 400;
+	line-height: 27px;
+}
+
+.catinfoins a {
+	color: #9a9a9a;
+	font-size: 17px;
+	text-decoration: underline;
+}
+
 .cataside {
 	margin-bottom: 30px;
 }

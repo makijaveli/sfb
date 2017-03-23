@@ -128,7 +128,7 @@ get_header();
 				    
 				    	<h1><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h1>
 
-				    	<div class="catinfo">
+				    	<div class="catinfoins">
 				    		<span>
 				    		<?php _e( 'Датум:', 'sfb' ); ?>
 							</span><?php echo get_the_date('d.m.Y'); ?>
