@@ -117,145 +117,17 @@ get_header();
 
 						<div class="news-thumb">
 							
-							<?php if( get_field('kategorija_vesti_fakultet') == 'vazno' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/vazno.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'zan' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'adm' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/adm.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'fin' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/finansije.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php if( get_field('kategorija_vesti_fakultet') == 'stip' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/stip-faks.png" alt="Šumarski fakultet">
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'paih' ): ?>
-								<?php if( get_field('kategorija_vesti_fakultet') == 'nagrade' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/nagrade_smer_paih.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'ei' ): ?>
-								<?php if( get_field('kategorija_vesti_fakultet') == 'nagrade' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/nagrade_smer_ei.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'tmp' ): ?>
-								<?php if( get_field('kategorija_vesti_fakultet') == 'nagrade' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/nagrade_smer_tmp.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'su' ): ?>
-								<?php if( get_field('kategorija_vesti_fakultet') == 'nagrade' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/nagrade_smer_su.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'sve' ): ?>
-								<?php if( get_field('kategorija_vesti_fakultet') == 'nagrade' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/nagrade_fakultet.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-							<?php endif; ?>
-
-							<?php if( get_field('kategorija_vesti_studenti') == 'fin' ): ?>
-								<img src="<?php bloginfo('template_directory'); ?>/images/finansije.png" alt="Šumarski fakultet">
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'sve' ): ?>
-
-								<?php if( get_field('kategorija_vesti_studenti') == 'vazno' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/vazno.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'zan' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'adm' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/adm.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								
-								<?php if( get_field('kategorija_vesti_studenti') == 'stip' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/stip.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'paih' ): ?>
-
-								<?php if( get_field('kategorija_vesti_studenti') == 'vazno' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/vazno_odsek_paih.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'zan' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti_odsek_paih.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'adm' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/administracija_odsek_paih.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								
-								<?php if( get_field('kategorija_vesti_studenti') == 'stip' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/stipendije_konkursi_odsek_paih.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'ei' ): ?>
-
-								<?php if( get_field('kategorija_vesti_studenti') == 'vazno' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/vazno_odsek_ei.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'zan' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti_odsek_ei.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'adm' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/administracija_odsek_ei.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								
-								<?php if( get_field('kategorija_vesti_studenti') == 'stip' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/stipendije_konkursi_odsek_ei.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'tmp' ): ?>
-
-								<?php if( get_field('kategorija_vesti_studenti') == 'vazno' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/vazno_odsek_tmp.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'zan' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti_odsek_tmp.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'adm' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/administracija_odsek_tmp.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								
-								<?php if( get_field('kategorija_vesti_studenti') == 'stip' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/stipendije_konkursi_odsek_tmp.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								
-							<?php endif; ?>
-
-							<?php if( get_field('odsek') == 'su' ): ?>
-
-								<?php if( get_field('kategorija_vesti_studenti') == 'vazno' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/vazno_odsek_su.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'zan' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/zanimljivosti_odsek_su.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								<?php if( get_field('kategorija_vesti_studenti') == 'adm' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/administracija_odsek_su.png" alt="Šumarski fakultet">
-									<?php endif; ?>
-								
-								<?php if( get_field('kategorija_vesti_studenti') == 'stip' ): ?>
-									<img src="<?php bloginfo('template_directory'); ?>/images/stipendije_konkursi_odsek_su.png" alt="Šumarski fakultet">
-								<?php endif; ?>
-								
-							<?php endif; ?>
+							<?php 
+							
+							if ( in_category(3) ) { //fakultet
+							
+								get_template_part('template_parts/news-faculty-icons');
+							}
+							
+							elseif ( in_category(2) ) { //studenti
+								get_template_part('template_parts/news-students-icons');
+							}
+							?>
 
 						</div>	
 

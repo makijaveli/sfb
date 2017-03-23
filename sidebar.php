@@ -25,7 +25,9 @@
 	|| is_page(2379) 
 	|| is_page(2356) 
 	|| is_page(2372) 
-	|| is_page(2365)  
+	|| is_page(2365)
+	|| is_page(1455)
+	|| is_page(1461)
 	): ?>
 
    <aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">				
