@@ -105,8 +105,8 @@ if (is_tree(718)) {
 							<div class="block-servis">
 								<i class="fa fa-id-card" aria-hidden="true"></i>
 							</div>	
-							<span>Електронски досије</span>
-						</a>					
+							<span>Е досије</span>
+						</a>						
 					</div>
 
 					<p><?php the_content(); ?></p>
