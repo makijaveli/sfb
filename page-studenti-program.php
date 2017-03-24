@@ -94,7 +94,7 @@ if (is_tree(718)) {
 				    
 				<?php  } ?>
 
-					<div class="svi-servisi" style="margin-bottom: 40px; display: table;">
+					<div class="svi-servisi" style="margin-bottom: 25px; display: table;">
 						<?php while ( have_rows('linkovi') ) : the_row(); ?>
 							<a href="<?php the_sub_field('link'); ?>">
 								<div class="block-servis">
