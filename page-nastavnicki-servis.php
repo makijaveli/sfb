@@ -112,6 +112,24 @@ if (is_tree(718)) {
 							</div>	
 							<span>Распоред наставе</span>
 						</a>
+						<a href="<?php echo home_url(); ?>/fakultet/organizacija/izborno-vece/" target="_blank">
+							<div class="block-servis">
+								<i class="fa fa-user-plus" aria-hidden="true"></i>
+							</div>	
+							<span>Изборно веће</span>
+						</a>
+						<a href="<?php echo home_url(); ?>/fakultet/organizacija/nastavno-naucno-vece/" target="_blank">
+							<div class="block-servis">
+								<i class="fa fa-users" aria-hidden="true"></i>
+							</div>	
+							<span>НН веће</span>
+						</a>
+						<a href="<?php echo home_url(); ?>/fakultet/organizacija/savet-fakulteta/" target="_blank">
+							<div class="block-servis">
+								<i class="fa fa-check-square-o" aria-hidden="true"></i>
+							</div>	
+							<span>Савет факултета</span>
+						</a>
 						
 					</div>
 
