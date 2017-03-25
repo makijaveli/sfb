@@ -187,7 +187,7 @@ Template Name: Knjiga
 					    <?php the_field('sadrzaj-predmeta'); ?>
 					  </div>
 					  <div id="tabs-4">
-					    <?php the_field('materijal-za-nastavu'); ?>
+					    <p><iframe class="predmet" style="width: 100%; height: 600px;" src="<?php the_field('materijal-za-nastavu'); ?>" width="300" height="150" frameborder="0" marginwidth="0" marginheight="0" scrolling="No"><br /></iframe></p>					    
 					  </div>
 				</div>  
 
