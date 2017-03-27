@@ -539,7 +539,18 @@ section.news {
 	margin-left: 12px;
 }
 
+.ctanews.nauka {
+	padding-top: 15px;
+}
 
+.ctanews.nauka a {
+	color: #FFF!important;
+}
+
+
+.block-nauka {
+	margin-bottom: 30px;
+}
 
 /* Landing odseka */
 .block-landing {

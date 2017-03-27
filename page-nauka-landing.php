@@ -59,65 +59,77 @@ get_header();
 					<h1>Наука</h1>
 				    <h2>Скупови и конференције</h2>
 
-				    <?php                    
-                    $args = array('cat' => 97, 'posts_per_page'=> 5); //konkursi
-                    $wp_query = new WP_Query($args); ?>
-                    
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        
-                        <a href="<?php the_permalink(); ?>" class="nabavka-stil"><h3><?php the_title(); ?></h3></a>                    
+				    <div class="block-nauka">
+					    <?php                    
+	                    $args = array('cat' => 97, 'posts_per_page'=> 5); //konkursi
+	                    $wp_query = new WP_Query($args); ?>
+	                    
+	                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+					    ?>
+	                        
+	                        <a href="<?php the_permalink(); ?>" class="nabavka-stil"><h3><?php the_title(); ?></h3></a>                    
 
 
-                    <?php endwhile; ?> 
+	                    <?php endwhile; ?> 
+	                    <div class="ctanews nauka">						
+							<a href="<?php echo get_page_link(7011); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						</div>
+	                    <?php else : ?>
+	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
 
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+	                    <?php  endif; ?>
 
-                    <?php  endif; ?> 
+	                    
+					</div>
 
                     <div class="break"></div>
 
 					<h2>Национални пројекти</h2>
+					<div class="block-nauka">
+					    <?php                    
+	                    $args = array('cat' => 98, 'posts_per_page'=>5 ); //konkursi
+	                    $wp_query = new WP_Query($args); ?>
+	                    
+	                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+					    ?>
+	                        
+	                        <a class="nabavka-stil" href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>                    
 
-				    <?php                    
-                    $args = array('cat' => 98, 'posts_per_page'=>5 ); //konkursi
-                    $wp_query = new WP_Query($args); ?>
-                    
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        
-                        <a class="nabavka-stil" href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>                    
 
+	                    <?php endwhile; ?> 
+	                    <div class="ctanews nauka">						
+							<a href="<?php echo get_page_link(7015); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						</div>
+	                    <?php else : ?>
+	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
 
-                    <?php endwhile; ?> 
-
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
+	                    <?php  endif; ?>
+	                </div>    
 
                     <div class="break"></div>
 
 					<h2>Међународни пројекти</h2>
 
-				    <?php                    
-                    $args = array('cat' => 99, 'posts_per_page'=> 5); //konkursi
-                    $wp_query = new WP_Query($args); ?>
-                    
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        
-                        <a class="nabavka-stil" href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>                    
+					<div class="block-nauka">
+					    <?php                    
+	                    $args = array('cat' => 99, 'posts_per_page'=> 5); //konkursi
+	                    $wp_query = new WP_Query($args); ?>
+	                    
+	                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+					    ?>
+	                        
+	                        <a class="nabavka-stil" href="<?php the_permalink(); ?>"><h3><?php the_title(); ?></h3></a>                    
 
 
-                    <?php endwhile; ?> 
+	                    <?php endwhile; ?> 
+	                    <div class="ctanews nauka">						
+							<a href="<?php echo get_page_link(7013); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+						</div>
+	                    <?php else : ?>
+	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
 
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
-
+	                    <?php  endif; ?>
+	                </div>    
                     <div class="break"></div>                                                         
 
 
