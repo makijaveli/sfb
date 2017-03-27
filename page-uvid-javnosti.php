@@ -9,61 +9,61 @@ get_header();
 ?>
 
 <div class="breadcrumbs">
-	
-	<div class="wrapper">
+    
+    <div class="wrapper">
 
-		<div class="breadcrumb">
+        <div class="breadcrumb">
 
-			<?php $url = home_url();?>
+            <?php $url = home_url();?>
 
-			<a href="<?php echo $url; ?>"> 
+            <a href="<?php echo $url; ?>"> 
 
-			<?php _e( 'Шумaрски факултет', 'sfb' ); ?>
+            <?php _e( 'Шумaрски факултет', 'sfb' ); ?>
 
-			</a> >
+            </a> >
 
-			 <?php if(function_exists('bcn_display'))
-	    	{
+             <?php if(function_exists('bcn_display'))
+            {
 
-	        bcn_display();
+            bcn_display();
 
-	    	} ?>
+            } ?>
 
-    	</div>
+        </div>
 
 
-	</div>
+    </div>
 
 </div>
 
 <div class="wrapper">
-	
+    
 
-	<main>
+    <main>
 
-		<aside class="page">
-			
-			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
-				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-					<?php dynamic_sidebar( 'widget-area-1' ); ?>
-				</div><!-- #primary-sidebar -->
-			<?php endif; ?>
+        <aside class="page">
+            
+            <?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+                <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+                    <?php dynamic_sidebar( 'widget-area-1' ); ?>
+                </div><!-- #primary-sidebar -->
+            <?php endif; ?>
 
-		</aside>
+        </aside>
 
         <div class="content">
-			<span class="button">+</span>
-		</div>
+            <span class="button">+</span>
+        </div>
 
-		<div class="page-content">
-        		    <h1><?php the_title() ?></h1>
+        <div class="page-content">
+                    <h1><?php the_title() ?></h1>
 
-				    <?php
+                    <?php
                     $args = array('cat' => 35, 'posts_per_page'=>-1); //doktorske disertacije
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
+                    ?>
                         <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
                         <?php the_content(); ?>
                     <?php endwhile; ?>
@@ -78,7 +78,7 @@ get_header();
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
+                    ?>
                         <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
                         <?php the_content(); ?>
                     <?php endwhile; ?> 
@@ -94,17 +94,69 @@ get_header();
                     $wp_query = new WP_Query($args); ?>
                     <h2><?php single_cat_title(); ?></h2>
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
+                    ?>
                         <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
                         <?php the_content(); ?>
 
                     <?php endwhile; ?>
                     <?php else : ?>
                         <p><?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-                    <?php endif; ?>					
-     	</div>
-	
-	</main>
+                    <?php endif; ?>
+
+
+
+                    <h1>Обавештење о јавним одбранама</h1>
+
+                    <?php
+                    $args = array('cat' => 45, 'posts_per_page'=>-1); //doktorske disertacije
+                    $wp_query = new WP_Query($args); ?>
+                    <h2><?php single_cat_title(); ?></h2>
+                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+                    ?>
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
+                    <?php endwhile; ?>
+                     <?php else : ?>
+                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+                    <?php endif; ?> 
+
+                    <div class="break"></div>
+
+                    <?php
+                    $args = array('cat' => 46, 'posts_per_page'=>-1); //master radovi
+                    $wp_query = new WP_Query($args); ?>
+                    <h2><?php single_cat_title(); ?></h2>
+                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+                    ?>
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
+                    <?php endwhile; ?> 
+
+                    <?php else : ?>
+                        <p><?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+                    <?php endif; ?> 
+
+                    <div class="break"></div>
+
+                    <?php
+                    $args = array('cat' => 47, 'posts_per_page'=>-1); //specijalisticki radovi
+                    $wp_query = new WP_Query($args); ?>
+                    <h2><?php single_cat_title(); ?></h2>
+                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+                    ?>
+                        <h3 class="ime-uvid-javnosti"><?php the_title(); ?></h3>
+                        <?php the_content(); ?>
+
+                    <?php endwhile; ?>
+                    <?php else : ?>
+                        <p><?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
+                    <?php endif; ?> 
+
+
+
+        </div>
+    
+    </main>
 
 </div><!-- wrapper -->
 

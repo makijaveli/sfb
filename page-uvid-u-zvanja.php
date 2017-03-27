@@ -59,12 +59,15 @@ get_header();
 
 
 
-				    <h1><?php the_title() ?></h1>
+				    <h1><?php the_title(); ?></h1>
+
+
 
 				    <?php
-                    $args = array('cat' => 39, 'posts_per_page'=>-1); //konkursi
+                    $kategorija = get_field('id_kategorije');
+                    $args = array('cat' => $kategorija, 'posts_per_page'=>-1); //konkursi
                     $wp_query = new WP_Query($args); ?>
-                    <h2><?php single_cat_title(); ?></h2>
+                    
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
 				    ?>
                         <ul class="accordion">
@@ -74,7 +77,6 @@ get_header();
                         </div>
 
                      </ul>
-
 
 
                     <?php endwhile; ?> 
@@ -84,78 +86,7 @@ get_header();
 
                     <?php  endif; ?> 
 
-                    <div class="break"></div>
-
-                    <?php
-                    $args = array('cat' => 40, 'posts_per_page'=>-1); //referati
-                    $wp_query = new WP_Query($args); ?>
-                    <h2><?php single_cat_title(); ?></h2>
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        <ul class="accordion">
-                        <a class="toggle nabavka-stil" href="javascript:void(0);"><h3><?php the_title(); ?></h3></a>
-                         <div class="inner">
-                            <div class="li"><?php the_content(); ?></div>
-                        </div>
-
-                     </ul>
-
-
-                    <?php endwhile; ?>
-
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-                   <?php  endif; ?> 
-
-                    <div class="break"></div>
-
-                    <?php
-                    $args = array('cat' => 41, 'posts_per_page'=>-1); //pristupna predavanja
-                    $wp_query = new WP_Query($args); ?>
-                    <h2><?php single_cat_title(); ?></h2>
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        <ul class="accordion">
-                        <a class="toggle nabavka-stil" href="javascript:void(0);"><h3><?php the_title(); ?></h3></a>
-                         <div class="inner">
-                            <div class="li"><?php the_content(); ?></div>
-                        </div>
-
-                     </ul>
-
-
-
-                    <?php endwhile; ?> 
-
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
-
-                    <div class="break"></div>
-
-                    <?php
-                    $args = array('cat' => 42, 'posts_per_page'=>-1); //prigovori
-                    $wp_query = new WP_Query($args); ?>
-                    <h2><?php single_cat_title(); ?></h2>
-                    <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
-				    ?>
-                        <ul class="accordion">
-                        <a class="toggle nabavka-stil" href="javascript:void(0);"><h3><?php the_title(); ?></h3></a>
-                         <div class="inner">
-                            <div class="li"><?php the_content(); ?></div>
-                        </div>
-
-                     </ul>
-
-
-
-                    <?php endwhile; ?> 
-
-                     <?php else : ?>
-                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
-
-                    <?php  endif; ?> 
+                    <div class="break"></div>                   
 
 
 					
