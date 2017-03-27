@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Nauka te
+Template Name: Nauka template
 */
 
 get_header();
@@ -42,16 +42,7 @@ get_header();
 	<main>
 
 
-	<aside class="page">
-			
-			<?php if ( is_active_sidebar( 'widget-area-6' ) ) : ?>
-				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-					<?php dynamic_sidebar( 'widget-area-6' ); ?>
-				</div><!-- #primary-sidebar -->
-			<?php endif; ?>
-
-		</aside>
-
+	<?php get_sidebar(); ?>
 		
 
         <div class="content">
@@ -65,7 +56,7 @@ get_header();
 				    <h2>Скупови и конференције</h2>
 
 				    <?php                    
-                    $args = array('cat' => 97, 'posts_per_page'=>-1); //konkursi
+                    $args = array('cat' => 97, 'posts_per_page'=> 5); //konkursi
                     $wp_query = new WP_Query($args); ?>
                     
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
@@ -86,7 +77,7 @@ get_header();
 					<h2>Национални пројекти</h2>
 
 				    <?php                    
-                    $args = array('cat' => 97, 'posts_per_page'=>-1); //konkursi
+                    $args = array('cat' => 98, 'posts_per_page'=>5 ); //konkursi
                     $wp_query = new WP_Query($args); ?>
                     
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
