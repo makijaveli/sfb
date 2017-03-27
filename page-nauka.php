@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Nauka
+Template Name: Nauka te
 */
 
 get_header();
@@ -41,15 +41,9 @@ get_header();
 
 	<main>
 
-		<aside class="page">
-			
-			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
-				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-					<?php dynamic_sidebar( 'widget-area-1' ); ?>
-				</div><!-- #primary-sidebar -->
-			<?php endif; ?>
 
-		</aside>
+		<?php get_sidebar(); ?>
+		
 
         <div class="content">
 			<span class="button">+</span>
