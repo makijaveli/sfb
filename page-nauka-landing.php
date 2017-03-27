@@ -42,9 +42,13 @@ get_header();
 	<main>
 
 
-	<?php get_sidebar(); ?>
-		
-
+		<aside>				
+			<?php if ( is_active_sidebar( 'widget-area-6' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-6' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+		</aside>
         <div class="content">
 			<span class="button">+</span>
 		</div>
@@ -98,7 +102,7 @@ get_header();
 					<h2>Међународни пројекти</h2>
 
 				    <?php                    
-                    $args = array('cat' => 97, 'posts_per_page'=>-1); //konkursi
+                    $args = array('cat' => 99, 'posts_per_page'=> 5); //konkursi
                     $wp_query = new WP_Query($args); ?>
                     
                     <?php if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
