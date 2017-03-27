@@ -1569,6 +1569,15 @@ aside .subpages .children {
     font-size: 17px;
 }
 
+#shailan-subpages-10,#shailan-subpages-10 ul li {
+	margin-bottom: 5px;
+}
+
+#shailan-subpages-10,#shailan-subpages-10 ul li a {
+	font-weight: 400;
+    font-size: 17px;
+}
+
 
 .breadcrumb.red a {
 	color: #ac0a3a;

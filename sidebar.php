@@ -1,5 +1,4 @@
 <?php 
-
 	if ( in_array(1814, $post->ancestors) 
 	|| in_array(1826, $post->ancestors) 
 	|| in_array(5824, $post->ancestors) 
@@ -26,7 +25,7 @@
 	|| is_page(1402)
 	|| is_page(2379) 
 	|| is_page(2356) 
-	|| is_page(2372) 
+	|| is_page(2372)
 	|| is_page(2365)
 	|| is_page(1455)
 	|| is_page(1461)
