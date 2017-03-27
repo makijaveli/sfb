@@ -1,7 +1,7 @@
 <?php 
 
 /*
-Template Name: Nauka te
+Template Name: Nauka template
 */
 
 get_header();
