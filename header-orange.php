@@ -89,8 +89,7 @@
 						<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
 						<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 						<a href=""><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-pinterest-square" aria-hidden="true"></i></a>
-						<a href=""><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+						
 
 
 					<div class="lang">
