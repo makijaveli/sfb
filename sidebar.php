@@ -48,6 +48,136 @@
 				</div><!-- #primary-sidebar -->
 			<?php endif; ?>
 		</aside>
+<?php elseif(
+	in_array(2628, $post->ancestors) //su	
+): ?>
+
+	
+
+	<aside class="page green">
+				
+				<h2 class="green"><?php echo get_the_title( 2628 ); ?></h2>
+
+				<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+						<?php dynamic_sidebar( 'widget-area-1' ); ?>
+					</div><!-- #primary-sidebar -->
+				<?php endif; ?>
+
+				<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+				<h2 class="green"><?php echo get_the_title( 5615 ); ?></h2>	
+
+				<?php } else { ?>		
+
+				<h2 class="green"><?php echo get_the_title( 1136 ); ?></h2>
+
+				<?php } ?>
+
+				<?php if ( is_active_sidebar( 'widget-area-3' ) ) : ?>
+					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+						<?php dynamic_sidebar( 'widget-area-3' ); ?>
+					</div><!-- #primary-sidebar -->
+				<?php endif; ?>
+
+	</aside>	
+
+<?php elseif(
+	in_array(1083, $post->ancestors) //ei	
+): ?>
+
+<aside class="page blue">
+			
+			<h2 class="blue"><?php echo get_the_title( 1083 ); ?></h2>
+			
+			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-1' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+			<h2 class="blue"><?php echo get_the_title( 5615 ); ?></h2>	
+
+			<?php } else { ?>		
+
+			<h2 class="blue"><?php echo get_the_title( 1136 ); ?></h2>
+
+			<?php } ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-3' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-3' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+		</aside>
+
+<?php elseif(
+	in_array(1085, $post->ancestors) //tmp	
+): ?>
+
+<aside class="page orange">
+			
+			<h2 class="orange"><?php echo get_the_title( 1085 ); ?></h2>
+			
+			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-1' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+			<h2 class="orange"><?php echo get_the_title( 5615 ); ?></h2>	
+
+			<?php } else { ?>		
+
+			<h2 class="orange"><?php echo get_the_title( 1136 ); ?></h2>
+
+			<?php } ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-3' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-3' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+		</aside>	
+
+<?php elseif(
+	in_array(718, $post->ancestors) //paih	
+): ?>
+
+<aside class="page red">		
+
+			<h2 class="red"><?php echo get_the_title( 718 ); ?></h2>	
+
+			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-1' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+
+			<h2 class="red"><?php echo get_the_title( 5615 ); ?></h2>	
+
+			<?php } else { ?>		
+
+			<h2 class="red"><?php echo get_the_title( 1136 ); ?></h2>
+
+			<?php } ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-3' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-3' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+		</aside>	
+
 <?php else: ?>
 		<aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">	
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
