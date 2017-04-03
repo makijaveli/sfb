@@ -5,11 +5,12 @@
 				<div class="fcol">
 					
 					<h3><?php _e( 'У сусрет јубилеју', 'sfb' ); ?></h3>
+						<div class="jubilej">
+							<img src="<?php bloginfo('template_directory'); ?>/images/100_godina_sfb.png" alt="Šumarski fakultet"></a>
+						</div>	
 
-					<span>100 <?php _e( 'година', 'sfb' ); ?></span>
-
-					<p> <?php _e( 'Шумарског факултета одбројавање', 'sfb' ); ?>
-						<span id="countdown">845 dana</span></p> 
+					<p> <?php _e( '100 година <br /> Шумарског факултета', 'sfb' ); ?><br /> 
+					Одбројавање: <span id="countdown">0 dana</span></p> 
 
 					<h3><?php _e( 'Брзи линкови', 'sfb' ); ?></h3>
 
@@ -27,18 +28,11 @@
 
 				<div class="fcol">
 
-					<ul>
-			
+					<ul>			
 						<h3><?php _e( 'Студијски програм', 'sfb' ); ?></h3>
-
 						<?php wp_nav_menu( array( 'theme_location' => 'footer-menu-ob' ) ); ?>
-
 						<h3><?php _e( 'Студенти', 'sfb' ); ?></h3>
-
 						<?php wp_nav_menu( array( 'theme_location' => 'footer-menu-st' ) ); ?>
-
-						
-
 					</ul>
 
 
