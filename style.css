@@ -744,6 +744,12 @@ footer {
 	font-weight: 700;
 }
 
+
+footer .jubilej img {
+	width: 65px;
+	height: auto;
+}
+
 /* End Footer */
 
 
