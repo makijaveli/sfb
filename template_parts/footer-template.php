@@ -182,7 +182,7 @@
 	</script>
 
 	<script>
-	var end = new Date('04/01/2017 00:00:00');
+	var end = new Date('12/05/2020 00:00:00');
 
 	    var _second = 1000;
 	    var _minute = _second * 60;
@@ -196,7 +196,7 @@
 	        if (distance < 0) {
 
 	            clearInterval(timer);
-	            document.getElementById('countdown').innerHTML = 'EXPIRED!';
+	            document.getElementById('countdown').innerHTML = 'Istekao!';
 
 	            return;
 	        }
