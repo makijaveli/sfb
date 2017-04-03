@@ -43,7 +43,7 @@ get_header();
 
 				<?php if( $link ): ?>
 
-				<h1><a href="<?php echo $link; ?>"><?php echo $text; ?></a></h1>
+				<h1><a href="<?php echo $link; ?>"><?php the_field('naslov'); ?></a></h1>
 
 				<?php endif; ?>
 
