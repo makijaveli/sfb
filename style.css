@@ -1878,7 +1878,8 @@ nav.main-nav.green {
 }
 
 .odsek-kat.orange h4 {
-	background-color: rgba(215, 89, 4, 0.60);;
+	background-color: rgba(215, 89, 4, 1.0);
+	min-height: 84px;
 }
 
 .odsek-kat.blue h4 {
