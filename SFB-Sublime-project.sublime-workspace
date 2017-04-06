@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"min",
+				"min-height"
+			],
+			[
 				"pad",
 				"padding"
 			],
@@ -78,10 +82,6 @@
 			[
 				"margin",
 				"margin-bottom"
-			],
-			[
-				"min",
-				"min-width"
 			],
 			[
 				"up",
@@ -219,31 +219,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "page-knjiga.php",
-			"settings":
-			{
-				"buffer_size": 4258,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/D/Administacija sajtova/Centar savremene politike/RADNO/MART 25 2017/style-child.css",
-			"settings":
-			{
-				"buffer_size": 2028,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "SFB-Sublime-project.sublime-project",
-			"settings":
-			{
-				"buffer_size": 45,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -277,10 +252,32 @@
 	},
 	"expanded_folders":
 	[
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/nov-sfb/sfb"
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts"
 	],
 	"file_history":
 	[
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/who-we-represent.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/collaborate-with.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/selected-key.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/MART 05 2017/template-tags.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/MART 05 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/MART 05 2017/front_page.php",
+		"/C/Users/jamar/Desktop/milan/contact.php",
+		"/C/DOKUMENTA/Administracija sajtova/VisitPavilion/MART 05 2017/listable/inc/template-tags.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/MIGRACIJA/milosblo_ekofnicef (1).sql",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/newsletter.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/sidebar.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/MIGRACIJA/ekof-nicef-5-4-17/ekof-nicef/wp-config.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/footer-template.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/SFB-Sublime-project.sublime-project",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-knjiga.php",
+		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 25 2017/style-child.css",
 		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/nov-sfb/sfb/style.css",
 		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/nov-sfb/sfb/header.php",
 		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/nov-sfb/sfb/page-nastavnicki-servis.php",
@@ -387,32 +384,11 @@
 		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/style.css",
 		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 05 2017/page-cenovnik.php",
 		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/css/jquery.bxslider.css",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 02 2017/custom.css",
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/footer.php",
-		"/C/Users/Marko Milic/Desktop/Studentski zivot/studentski_zivot2.jpg",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 01 2017/custom.css",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 01 2017/DetailsStep.php",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 01 2017/Booking.php",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 01 2017/salon_details.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 01 2017/newsletter.php",
-		"/C/Users/Marko Milic/Desktop/html5blank-stable/html5blank-stable/style.css",
-		"/D/Administacija sajtova/StandCert/RADNO/MART 01 2017/page-no-sidebar.php",
-		"/D/Administacija sajtova/StandCert/RADNO/MART 01 2017/style.css",
-		"/D/Administacija sajtova/Delhaize/RADNO/AVGUST 18 2016/delhaize/style.css",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/FEBRUAR 28 2017/ekof-csp/style.css",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/FEBRUAR 28 2017/custom.css",
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/page-javna-odbrana.php",
-		"/C/Users/Marko Milic/Desktop/test/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 27 2017/order-details.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 28 2017/emails/email-order-details.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 28 2017/email-order-details.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 28 2017/newsletter.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 28 2017/customer-on-hold-order.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 28 2017/order-details.php"
+		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 02 2017/custom.css"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 50.0
 	},
 	"find_in_files":
 	{
@@ -427,6 +403,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cta-text",
+			"cta",
+			"test.mweb.rs",
+			"test.mweb.rs\\\\/ekof-nicef",
+			"test.mweb.rs",
+			"test.mweb.rs\\\\/ekof-nicef",
+			"test.mweb.rs",
+			"test.mweb.rs/ekof-nicef",
+			"test.mweb.rs/ekof",
 			"link",
 			">\t\t\t\t\t",
 			"досије",
@@ -545,23 +530,15 @@
 			"color",
 			"create_post_type_html5",
 			"function create_post_type_html5",
-			"html5_shortcode_demo",
-			"$(\".fancybox\").fancybox({",
-			"the_post_thumbnail_caption",
-			"karakteristike",
-			"cal (",
-			"cal(",
-			"cal",
-			"absolute",
-			"get_sub_field",
-			"page"
+			"html5_shortcode_demo"
 		],
-		"highlight": true,
+		"highlight": false,
 		"in_selection": false,
 		"preserve_case": false,
 		"regex": true,
 		"replace_history":
 		[
+			"nicef.ekof.bg.ac.rs",
 			"Phone",
 			"http://www.sos-decijasela.rs",
 			"#4cbfd6",
@@ -576,96 +553,8 @@
 	"groups":
 	[
 		{
-			"selected": 2,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "page-knjiga.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4258,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4143,
-								4143
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 3410.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/D/Administacija sajtova/Centar savremene politike/RADNO/MART 25 2017/style-child.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2028,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "SFB-Sublime-project.sublime-project",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 45,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -708,7 +597,7 @@
 	"project": "SFB-Sublime-project.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 94.0
 	},
 	"save_all_on_build": false,
 	"select_file":
@@ -746,7 +635,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 281.0,
+	"side_bar_width": 419.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
