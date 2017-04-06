@@ -1877,9 +1877,17 @@ nav.main-nav.green {
 	background-color: rgba(172, 10, 58, 0.6);
 }
 
+.odsek-kat.orange {
+    border: 2px solid #D75904;
+    margin-bottom: 20px;
+    border-radius: 9px;
+}
+
 .odsek-kat.orange h4 {
 	background-color: rgba(215, 89, 4, 1.0);
 	min-height: 84px;
+	margin-bottom: 0;
+	bottom: 0px;
 }
 
 .odsek-kat.blue h4 {
