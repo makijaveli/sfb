@@ -75,7 +75,7 @@ get_header();
 
 				<div class="artnews">
 					
-					<?php query_posts('cat=3&posts_per_page=7'); ?><!-- vesti za fakultet -->
+					<?php query_posts('cat=3&posts_per_page=5'); ?><!-- vesti za fakultet -->
 
 					<h3><?php single_cat_title(); ?></h3>
 
@@ -126,7 +126,7 @@ get_header();
 				</div>
 				<div class="artnews">
 					
-					<?php query_posts('cat=2&posts_per_page=7'); ?> <!-- vesti za studente -->
+					<?php query_posts('cat=2&posts_per_page=5'); ?> <!-- vesti za studente -->
 
 					<h3><?php single_cat_title(); ?></h3>
 

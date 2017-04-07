@@ -219,6 +219,24 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
+			"settings":
+			{
+				"buffer_size": 1368,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
+			"settings":
+			{
+				"buffer_size": 4278,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -257,6 +275,7 @@
 	],
 	"file_history":
 	[
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/page-home.php",
 		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/who-we-represent.php",
 		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/collaborate-with.php",
@@ -271,7 +290,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/newsletter.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/sidebar.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/MIGRACIJA/ekof-nicef-5-4-17/ekof-nicef/wp-config.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/footer-template.php",
@@ -553,8 +571,66 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1368,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1084,
+								1084
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4278,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2196,
+								2196
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
