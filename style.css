@@ -347,7 +347,7 @@ nav ul li a {
 	z-index: 9;
 	position: relative;
 	display: table;
-	min-height: 420px;
+	min-height: 385px;
 }
 
 .card {
