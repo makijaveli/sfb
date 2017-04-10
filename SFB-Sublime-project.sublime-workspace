@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-image"
+			],
+			[
+				"c",
+				"cover"
+			],
+			[
 				"min",
 				"min-height"
 			],
@@ -176,10 +184,6 @@
 				"font-size"
 			],
 			[
-				"ba",
-				"background-color"
-			],
-			[
 				"a",
 				"auto"
 			],
@@ -220,21 +224,108 @@
 	"buffers":
 	[
 		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
+			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 1368,
+				"buffer_size": 40542,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/functions.php",
 			"settings":
 			{
-				"buffer_size": 4278,
+				"buffer_size": 22617,
 				"encoding": "UTF-8",
-				"line_ending": "Unix"
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
+			"settings":
+			{
+				"buffer_size": 704,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/single-prodavnice.php",
+			"settings":
+			{
+				"buffer_size": 2034,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/category.php",
+			"settings":
+			{
+				"buffer_size": 2102,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-prvi-red.php",
+			"settings":
+			{
+				"buffer_size": 1904,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna.php",
+			"settings":
+			{
+				"buffer_size": 2077,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider.php",
+			"settings":
+			{
+				"buffer_size": 893,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index-izmena.php",
+			"settings":
+			{
+				"buffer_size": 1208,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider-upgrade.php",
+			"settings":
+			{
+				"buffer_size": 981,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-upgrade.php",
+			"settings":
+			{
+				"buffer_size": 2254,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/header.php",
+			"settings":
+			{
+				"buffer_size": 4432,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -275,6 +366,33 @@
 	],
 	"file_history":
 	[
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna – kopija.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/header-style-1.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/loop-single.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header-style-1.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 09 2017/td_smart_list_1.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/collaborate-with.php",
+		"/C/DOKUMENTA/Administracija sajtova/European Western Balkans/RADNO/APRIL 08 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-work-wits-us.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-contact.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-about.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-home.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-services.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-industry.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-casting.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-refractory.php",
+		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 08 2017/page-industries.php",
+		"/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/APRIL 08 2017/second.column.index2.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 08 2017/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-oblast-kurseva.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-naslovna.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/page-home.php",
 		"/C/DOKUMENTA/Administracija sajtova/HTR.rs/RADNO/APRIL 05 2017/who-we-represent.php",
@@ -291,7 +409,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/sidebar.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/MIGRACIJA/ekof-nicef-5-4-17/ekof-nicef/wp-config.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/footer-template.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/SFB-Sublime-project.sublime-project",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-knjiga.php",
@@ -376,37 +493,11 @@
 		"/D/Administacija sajtova/UniDocs/RADNO/page.php",
 		"/D/Administacija sajtova/UniDocs/RADNO/page-oblasti.php",
 		"/D/Administacija sajtova/UniDocs/RADNO/page-prosirenje.php",
-		"/D/Administacija sajtova/UniDocs/RADNO/page-usluge.php",
-		"/D/Administacija sajtova/UniDocs/RADNO/page-dms.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/scripts.js",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/woocommerce-smallscreen.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/woocommerce.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/woocommerce-layout.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 09 2017/footer.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 07 2017/Newsmag-child/style.css",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 07 2017/Newsmag-child/functions.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 07 2017/functions.php",
-		"/D/Administacija sajtova/EKOF - NICEF/RADNO/MART 07 2017/page-naslovna.php",
-		"/D/Administacija sajtova/EKOF - NICEF/RADNO/MART 07 2017/page-kontakt.php",
-		"/D/Administacija sajtova/EKOF - NICEF/RADNO/MART 07 2017/functions.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/header.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/page-naslovna.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/informacije.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/footer.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/page-kontakt.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/page-partneri.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/style.css",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/category-vesti.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/sidebar.php",
-		"/D/Administacija sajtova/EKOF - CSP/RADNO/MART 05 2017/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/FEBRUAR 05 2017/page-cenovnik.php",
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/css/jquery.bxslider.css",
-		"/D/Administacija sajtova/MILDEV/PTD Therapie/RADNO/MART 02 2017/custom.css"
+		"/D/Administacija sajtova/UniDocs/RADNO/page-usluge.php"
 	],
 	"find":
 	{
-		"height": 50.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -421,6 +512,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"robe",
+			"?>');\">",
+			"naslov",
+			"\t\t\t\t\n",
+			"70",
+			"100",
+			"Наручи",
+			"Стопама",
+			"70",
+			"Крф",
 			"cta-text",
 			"cta",
 			"test.mweb.rs",
@@ -538,17 +639,7 @@
 			"#1B7095",
 			"#a46497",
 			"page",
-			"create_post_type_html5",
-			">\t",
-			"about-exibitor",
-			"#about-exibitor",
-			"itemprop=\"streetAddress\"",
-			"auto",
-			"listing_display_products",
-			"color",
-			"create_post_type_html5",
-			"function create_post_type_html5",
-			"html5_shortcode_demo"
+			"create_post_type_html5"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -571,29 +662,118 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 4,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
+					"file": "style.css",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1368,
+						"buffer_size": 40542,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1084,
-								1084
+								4888,
+								4888
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax"
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 7512.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/functions.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 22617,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								22617,
+								22617
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 12865.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 704,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								704,
+								704
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/single-prodavnice.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2034,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -603,20 +783,20 @@
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
+					"buffer": 4,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/category.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4278,
+						"buffer_size": 2102,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2196,
-								2196
+								0,
+								0
 							]
 						],
 						"settings":
@@ -625,10 +805,213 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 528.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-prvi-red.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1904,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1904,
+								1904
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2077,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 893,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								893
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index-izmena.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1208,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								815,
+								1035
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-slider-upgrade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 981,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								973,
+								973
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/loop-naslovna-upgrade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2254,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2253,
+								2224
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 858.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4432,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1056.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
 					"type": "text"
 				}
 			]
