@@ -95,6 +95,10 @@ i {
 	margin: 0 auto;
 }
 
+.bottom-zero {
+	margin-bottom: 0 !important;
+}
+
 /* End Main */
 
 /* Header */
