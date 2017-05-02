@@ -95,13 +95,13 @@ if (is_tree(718)) {
 				<?php  } ?>
 
 					<div class="svi-servisi">
-						<a href="" target="_blank">
+						<a href="https://www.google.com/a/sfb.bg.ac.rs/ServiceLogin?service=mail&passive=true&rm=false&continue=http%3A%2F%2Fmail.google.com%2Fa%2Fsfb.bg.ac.rs%2F&bsv=llya694le36z" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-envelope-open-o" aria-hidden="true"></i>
 							</div>	
 							<span>Webmail</span>						
 						</a>
-						<a href="" target="_blank">
+						<a href="https://student.sfb.bg.ac.rs/" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-id-card" aria-hidden="true"></i>
 							</div>	

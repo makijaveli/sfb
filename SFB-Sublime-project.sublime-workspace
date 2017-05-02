@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"ma",
+				"margin-bottom"
+			],
+			[
 				"bac",
 				"background-image"
 			],
@@ -46,10 +50,6 @@
 			[
 				"re",
 				"review-box"
-			],
-			[
-				"ma",
-				"margin-top"
 			],
 			[
 				"tex",
@@ -223,24 +223,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/functions.php",
-			"settings":
-			{
-				"buffer_size": 21557,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/page-opc.php",
-			"settings":
-			{
-				"buffer_size": 844,
-				"encoding": "Western (Windows 1252)",
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -279,6 +261,19 @@
 	],
 	"file_history":
 	[
+		"/C/Users/jamar/Desktop/Iskoriscavanje suma/4. Нове фотографије особља.rar",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/search.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/theme_support_gardencare/includes/helpers/ajax.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/header.php",
+		"/C/Users/jamar/Desktop/Radno/html5blank-stable/html5blank-stable/search.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/functions.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/index.php",
+		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/APRIL 27 2017/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/page-opc.php",
+		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/functions.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/header-opc.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/loop-naslovna-upgrade.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/category.php",
@@ -292,7 +287,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/template_parts/tp-categories_home.php",
 		"/C/DOKUMENTA/Administracija sajtova/Petros/GIT/petros/page-home.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/style.css",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/index.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/single-prodavnice.php",
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 09 2017/category.php",
@@ -326,7 +320,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 08 2017/header.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/functions.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-oblast-kurseva.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/APRIL 7 2017/page-naslovna.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/header.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/RADNO/footer.php",
@@ -395,22 +388,11 @@
 		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/functions.php",
 		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/style.css",
 		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/single-16.php",
-		"/D/Administacija sajtova/Svetosavsko Zvonce/wp-config.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/style.css",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/top-widget.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/page-pagebuilder-home.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/header.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/header-style-1.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/Newsmag/includes/wp_booster/td_api.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/page-pagebuilder-only.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/Newsmag/parts/header/top-widget.php",
-		"/C/Users/Marko Milic/Desktop/html5blank-stable/html5blank-stable/header.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 16 2917/page-pagebuilder-title.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 14 2017/style.css"
+		"/D/Administacija sajtova/Svetosavsko Zvonce/wp-config.php"
 	],
 	"find":
 	{
-		"height": 38.0
+		"height": 36.0
 	},
 	"find_in_files":
 	{
@@ -425,6 +407,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"searched",
+			"search",
+			"searched",
+			"Searched",
+			"you",
+			"title",
+			"text",
+			"img",
 			"create_post_type_html5",
 			"overla",
 			"robe",
@@ -544,15 +534,7 @@
 			"content",
 			"obuka",
 			"9999",
-			"tabela-obuka",
-			".btn",
-			"/>",
-			"article",
-			"content",
-			"500px",
-			"#935386",
-			"#1B7095",
-			"#a46497"
+			"tabela-obuka"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -575,68 +557,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/functions.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 21557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								7105,
-								7105
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 4559.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "/C/DOKUMENTA/Administracija sajtova/Bajsologija/RADNO/APRIL 11 2017/page-opc.php",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 844,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								269,
-								269
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 242.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -717,7 +639,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 419.0,
+	"side_bar_width": 325.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
