@@ -43,9 +43,9 @@ get_header();
 
 		<aside class="page">
 			
-			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
+			<?php if ( is_active_sidebar( 'widget-area-6' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
-					<?php dynamic_sidebar( 'widget-area-1' ); ?>
+					<?php dynamic_sidebar( 'widget-area-6' ); ?>
 				</div><!-- #primary-sidebar  -->
 			<?php endif; ?>
 

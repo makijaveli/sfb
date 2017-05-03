@@ -1,50 +1,28 @@
-<?php 
+<?php get_header(); ?>
 
-get_header();
-
-?>
-
-<div class="breadcrumbs">
-	
+<div class="breadcrumbs">	
 	<div class="wrapper">
-
 		<div class="breadcrumb <?php if ( $post->post_parent == '718' ) echo 'red'; elseif ( $post->post_parent == '1085' ) echo 'orange'; elseif ( $post->post_parent == '1083' ) echo 'blue'; elseif ( $post->post_parent == '2628' ) echo 'green'; ?>">
-
 			<?php $url = home_url();?>
-
 			<a href="<?php echo $url; ?>"> 
-
 			<?php _e( 'Шумaрски факултет', 'sfb' ); ?>
-
 			</a> >
-
 			 <?php if(function_exists('bcn_display'))
 	    	{
-
 	        bcn_display();
-
 	    	} ?>
-
     	</div>
-
-
-	</div>
-
+   	</div>
 </div>
 
 <div class="wrapper">
-	
-
 	<main>
-
-		<aside class="page-profesor">
-			
+		<aside class="page-profesor">			
 			<h3>
 				<?php _e( 'Најновије вести', 'sfb' ); ?>
 			</h3>	
 			
 			<div class="cataside">
-
 			<?php 
 				// the query
 				$wpb_all_query = new WP_Query(array('post_type'=>'post', 'category__in' => array(2,3), 'post_status'=>'publish', 'posts_per_page'=> 5)); ?>
@@ -100,7 +78,7 @@ get_header();
 
 		</aside>
 
-		<div class="content">
+			<div class="content">
 			<span class="button">+</span>
 		</div>
 
@@ -115,25 +93,32 @@ get_header();
 
 					<div class="category-post">
 
-						<div class="postthumb">
+						<div class="news-thumb">
 							
-							<?php if ( has_post_thumbnail() ) : ?>
-							    <a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>">
-							        <?php the_post_thumbnail('category-size'); ?>
-							    </a>
-							<?php endif; ?>
+							<?php 
+							
+							
+								get_template_part('template_parts/news-faculty-icons');
+
+							?>
 
 						</div>	
 
 				    
 				    	<h1><a href="<?php the_permalink() ?>"><?php the_title() ?></a></h1>
 
-				    	<div class="catinfoins">
+				    	<div class="catinfo">
 				    		<span>
 				    		<?php _e( 'Датум:', 'sfb' ); ?>
-							</span><?php echo get_the_date('d.m.Y'); ?>
+							</span><?php echo get_the_date('d.m.Y'); ?><?php _e( ' - ', 'sfb' ); ?><span>
+				    		<?php _e( 'Категорија:', 'sfb' ); ?>
+
+							</span>
+							<?php $categories = get_the_category();
+							 if ( ! empty( $categories ) ) { ?>
+							    <?php echo '<a href="' . esc_url( get_category_link( $categories[0]->term_id ) ) . '">' . esc_html( $categories[0]->name ) . '</a>';
+					   } ?>
 				    	</div>
-				    	
 
 				    </div>
 

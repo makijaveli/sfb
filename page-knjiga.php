@@ -42,11 +42,47 @@ Template Name: Knjiga
 
 		<aside class="knjiga">
 			
-			
+			<?php 
+			if ( in_array(2379, $post->ancestors) 
+			|| in_array(2356, $post->ancestors) 
+			|| in_array(2372, $post->ancestors) 
+			|| in_array(2365, $post->ancestors) ) : ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-8' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-8' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+			<?php elseif( in_array(2476, $post->ancestors)
+			|| in_array(2491, $post->ancestors)
+			|| in_array(2473, $post->ancestors)
+			|| in_array(2453, $post->ancestors) ) : ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-9' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-9' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
+			<?php elseif( in_array(2518, $post->ancestors)
+			|| in_array(2527, $post->ancestors)
+			|| in_array(2555, $post->ancestors)
+			|| in_array(2561, $post->ancestors) ) : ?>
+
+			<?php if ( is_active_sidebar( 'widget-area-10' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-10' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+				 
+			<?php else: ?>
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
-				 <div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 					<?php dynamic_sidebar( 'widget-area-1' ); ?>
-				</div><!-- #primary-sidebar  -->
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
+
 			<?php endif; ?>
 
 		</aside>

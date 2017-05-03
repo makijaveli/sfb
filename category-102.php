@@ -98,7 +98,7 @@
 							<?php 
 							
 							
-								get_template_part('template_parts/news-faculty-icons');
+								get_template_part('template_parts/news-students-icons');
 
 							?>
 

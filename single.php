@@ -22,7 +22,7 @@ get_header();
 		<?php
 		// Default arguments
 		$args = array(
-			'posts_per_page' => 10, // How many items to display
+			'posts_per_page' => 5, // How many items to display
 			'post__not_in'   => array( get_the_ID() ), // Exclude current post
 			'no_found_rows'  => true, // We don't ned pagination so this speeds up the query
 		);

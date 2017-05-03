@@ -30,6 +30,14 @@
 	|| is_page(1455)
 	|| is_page(1461)
 	|| is_page(28)
+	|| is_page(2476)
+	|| is_page(2491)
+	|| is_page(2473)
+	|| is_page(2453)
+	|| is_page(2518)
+	|| is_page(2527)
+	|| is_page(2555)
+	|| is_page(2561)
 	): ?>
 
    <aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">				
