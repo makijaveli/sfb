@@ -1,50 +1,28 @@
-<?php 
+<?php get_header(); ?>
 
-get_header();
-
-?>
-
-<div class="breadcrumbs">
-	
+<div class="breadcrumbs">	
 	<div class="wrapper">
-
 		<div class="breadcrumb <?php if ( $post->post_parent == '718' ) echo 'red'; elseif ( $post->post_parent == '1085' ) echo 'orange'; elseif ( $post->post_parent == '1083' ) echo 'blue'; elseif ( $post->post_parent == '2628' ) echo 'green'; ?>">
-
 			<?php $url = home_url();?>
-
 			<a href="<?php echo $url; ?>"> 
-
 			<?php _e( 'Шумaрски факултет', 'sfb' ); ?>
-
 			</a> >
-
 			 <?php if(function_exists('bcn_display'))
 	    	{
-
 	        bcn_display();
-
 	    	} ?>
-
     	</div>
-
-
-	</div>
-
+   	</div>
 </div>
 
 <div class="wrapper">
-	
-
 	<main>
-
-		<aside class="page-profesor">
-			
+		<aside class="page-profesor">			
 			<h3>
 				<?php _e( 'Најновије вести', 'sfb' ); ?>
 			</h3>	
 			
 			<div class="cataside">
-
 			<?php 
 				// the query
 				$wpb_all_query = new WP_Query(array('post_type'=>'post', 'category__in' => array(2,3), 'post_status'=>'publish', 'posts_per_page'=> 5)); ?>
@@ -154,8 +132,4 @@ get_header();
 </div><!-- wrapper -->
 
 
-<?php 
-
-	get_footer();
-
- ?>
+<?php get_footer(); ?>
