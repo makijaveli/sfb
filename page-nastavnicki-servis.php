@@ -95,7 +95,7 @@ if (is_tree(718)) {
 				<?php  } ?>
 
 					<div class="svi-servisi">
-						<a href="" target="_blank">
+						<a href="https://www.google.com/a/sfb.bg.ac.rs/ServiceLogin?service=mail&passive=true&rm=false&continue=http%3A%2F%2Fmail.google.com%2Fa%2Fsfb.bg.ac.rs%2F&bsv=llya694le36z" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-envelope-open-o" aria-hidden="true"></i>
 							</div>	
@@ -112,19 +112,25 @@ if (is_tree(718)) {
 							</div>	
 							<span>Распоред наставе</span>
 						</a>
-						<a href="<?php echo home_url(); ?>/fakultet/organizacija/izborno-vece/" target="_blank">
+						
+					</div>	
+
+
+					<div class="svi-servisi materijali-nastava">
+						<h2>Материјали за:</h2>
+						<a href="http://data.sfb.bg.ac.rs/sftp/aleksandra.cebic/Izborno%20vece/" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-user-plus" aria-hidden="true"></i>
 							</div>	
 							<span>Изборно веће</span>
 						</a>
-						<a href="<?php echo home_url(); ?>/fakultet/organizacija/nastavno-naucno-vece/" target="_blank">
+						<a href="http://data.sfb.bg.ac.rs/sftp/aleksandra.cebic/NNV/" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-users" aria-hidden="true"></i>
 							</div>	
 							<span>НН веће</span>
 						</a>
-						<a href="<?php echo home_url(); ?>/fakultet/organizacija/savet-fakulteta/" target="_blank">
+						<a href="http://data.sfb.bg.ac.rs/sftp/aleksandra.cebic/Savet/" target="_blank">
 							<div class="block-servis">
 								<i class="fa fa-check-square-o" aria-hidden="true"></i>
 							</div>	
