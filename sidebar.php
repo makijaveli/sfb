@@ -93,7 +93,12 @@
 
 	<aside class="page green">
 				
+				<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+				<h2 class="green"><?php echo get_the_title( 5612 ); ?></h2>
+				<?php } else { ?>
 				<h2 class="green"><?php echo get_the_title( 2628 ); ?></h2>
+
+				<?php } ?>
 
 				<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
 					<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
@@ -126,7 +131,11 @@
 
 <aside class="page blue">
 			
-			<h2 class="blue"><?php echo get_the_title( 1083 ); ?></h2>
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+				<h2 class="blue"><?php echo get_the_title( 6805 ); ?></h2>
+				<?php } else { ?>
+				<h2 class="blue"><?php echo get_the_title( 1083 ); ?></h2>
+				<?php } ?>
 			
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
@@ -159,7 +168,11 @@
 
 <aside class="page orange">
 			
-			<h2 class="orange"><?php echo get_the_title( 1085 ); ?></h2>
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+				<h2 class="orange"><?php echo get_the_title( 5619 ); ?></h2>
+				<?php } else { ?>
+				<h2 class="orange"><?php echo get_the_title( 1085 ); ?></h2>
+				<?php } ?>
 			
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
@@ -192,7 +205,11 @@
 
 <aside class="page red">		
 
-			<h2 class="red"><?php echo get_the_title( 718 ); ?></h2>	
+			<?php if(ICL_LANGUAGE_CODE=='en') { ?>
+				<h2 class="red"><?php echo get_the_title( 7092 ); ?></h2>
+				<?php } else { ?>
+				<h2 class="red"><?php echo get_the_title( 718 ); ?></h2>
+				<?php } ?>	
 
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">

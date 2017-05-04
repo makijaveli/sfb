@@ -86,6 +86,8 @@ get_header();
 					<div class="category-post">
 
 						<div class="news-thumb">
+
+						<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
 							
 							<?php 
 							
@@ -98,6 +100,24 @@ get_header();
 								get_template_part('template_parts/news-students-icons');
 							}
 							?>
+
+						<?php else: ?>
+
+						<?php 
+							
+							if ( in_category(64) ) { //fakultet
+							
+								get_template_part('template_parts/news-faculty-icons');
+							}
+							
+							elseif ( in_category(63) ) { //studenti
+								get_template_part('template_parts/news-students-icons');
+							}
+							?>
+
+
+						<?php endif; ?>
+
 
 						</div>	
 

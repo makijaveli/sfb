@@ -9,8 +9,15 @@
 							<img src="<?php bloginfo('template_directory'); ?>/images/100_godina_sfb.png" alt="Šumarski fakultet"></a>
 						</div>	
 
+					<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
+
 					<p> <?php _e( '100 година <br /> Шумарског факултета', 'sfb' ); ?><br /> 
-					Одбројавање: <span id="countdown">0 dana</span></p> 
+					<?php _e( 'Одбројавање:', 'sfb' ); ?> <span id="countdown">0 dana</span></p> 
+
+					<?php else: ?>
+						<p> <?php _e( '100 years <br /> of the Faculty of Forestry', 'sfb' ); ?><br /> 
+					<?php _e( 'Countdown:', 'sfb' ); ?> <span id="countdown">0 days</span></p> 
+					<?php endif; ?>
 
 					<h3><?php _e( 'Брзи линкови', 'sfb' ); ?></h3>
 
@@ -196,11 +203,15 @@
 	        }
 	        var days = Math.floor(distance / _day);
 
+			<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
 	        <?php if (stl_is_current_cyrillic()) { ?>
 						document.getElementById('countdown').innerHTML = days + ' ' +  'дана ';
 						 <?php } else {  ?>
 						document.getElementById('countdown').innerHTML = days + ' ' +  'dana ';
 						<?php } ?>
+			<?php else: ?>
+			document.getElementById('countdown').innerHTML = days + ' ' +  'days ';
+			<?php endif; ?>
 	    }
 
 	    timer = setInterval(showRemaining, 1000);

@@ -101,7 +101,9 @@ i {
 
 table.aligncenter { margin: 0 auto;}
 
-
+.icl_lang_sel_translated {
+	display: none;
+}
 
 /* End Main */
 
