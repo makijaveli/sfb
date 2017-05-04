@@ -106,6 +106,12 @@ if (is_tree(718)) {
 								<i class="fa fa-id-card" aria-hidden="true"></i>
 							</div>	
 							<span>Е досије</span>
+						</a>
+						<a href="<?php echo home_url(); ?>/wp-content/uploads/2017/05/estudent-uputstvosfb.docx" target="_blank">
+							<div class="block-servis">
+								<i class="fa fa-id-card" aria-hidden="true"></i>
+							</div>	
+							<span>Упутство за приступ е налогу</span>
 						</a>						
 					</div>
 

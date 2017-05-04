@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin"
+			],
+			[
 				"ma",
 				"margin-bottom"
 			],
@@ -90,10 +94,6 @@
 			[
 				"back",
 				"background-size"
-			],
-			[
-				"margin",
-				"margin-bottom"
 			],
 			[
 				"up",
@@ -223,6 +223,42 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "style.css",
+			"settings":
+			{
+				"buffer_size": 40896,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "page-nastavnicki-servis.php",
+			"settings":
+			{
+				"buffer_size": 3762,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "category-16.php",
+			"settings":
+			{
+				"buffer_size": 924,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/MAJ 03 2017/gridfocus/header.php",
+			"settings":
+			{
+				"buffer_size": 4224,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -261,8 +297,32 @@
 	],
 	"file_history":
 	[
-		"/C/Users/jamar/Desktop/Iskoriscavanje suma/4. Нове фотографије особља.rar",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-strucni-saradnici.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-16.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-17.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-18.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-19.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-20.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-21.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-22.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-24.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-ei.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-blue.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-green.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-orange.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header-red.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/header.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-osoblje-lista-saradnici - Copy.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/category-30.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-landing-pejzaz.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-pocetna.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-faculty-icons.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studenti-landing.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-studentski-servisi.php",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/index.xml",
+		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/breadcrumbs-template.php",
+		"/C/Users/jamar/Desktop/Iskoriscavanje suma/4. Нове фотографије особља.rar",
 		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/search.php",
 		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/theme_support_gardencare/includes/helpers/ajax.php",
 		"/C/DOKUMENTA/Administracija sajtova/Pasinelliecassai/RADNO/MAJ 01 2017/style.css",
@@ -337,7 +397,6 @@
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/newsletter.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/sidebar.php",
 		"/C/DOKUMENTA/Administracija sajtova/EKOF-NICEF/MIGRACIJA/ekof-nicef-5-4-17/ekof-nicef/wp-config.php",
-		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/news-students-icons.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/template_parts/footer-template.php",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/SFB-Sublime-project.sublime-project",
 		"/C/DOKUMENTA/Administracija sajtova/Sumarski fakultet/GIT/sfb/page-knjiga.php",
@@ -365,30 +424,7 @@
 		"/D/Administacija sajtova/Bajsologija/Radno/MART 19 2017/functions.php",
 		"/D/Administacija sajtova/Bajsologija/Radno/MART 19 2017/header-opc.php",
 		"/D/Administacija sajtova/Bajsologija/Radno/MART 19 2017/style.css",
-		"/C/Administarcija sajtova/UniDocs/unidocs-19-03-2017/unidocs/wp-content/themes/unidocs-tmp/page-demo.php",
-		"/C/Administarcija sajtova/UniDocs/unidocs-19-03-2017/unidocs/wp-content/themes/unidocs-tmp/css/style-login.css",
-		"/D/Administacija sajtova/Bajsologija/Radno/MART 19 2017/sidebar.php",
-		"/D/Administacija sajtova/Bajsologija/Radno/MART 19 2017/page.php",
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/page-promocije.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/category-promocije.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/category-informacije.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/category-sajmovi.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/loop-informacije.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/functions.php",
-		"/C/Users/Marko Milic/Desktop/html5blank-stable/html5blank-stable/loop.php",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/page-naslovna.php",
-		"/D/Administacija sajtova/Visit Pavilio/woocommerce-2checkout-api-master/style.css",
-		"/D/Administacija sajtova/EKOF - CID/RADNO/MART 18 2017/page-casopisi.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/style-child.css",
-		"/D/Administacija sajtova/Centar savremene politike/HTML detalji poglavlja.html",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/admin-ajax.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/wp-config.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/functions.php",
-		"/D/Administacija sajtova/Centar savremene politike/RADNO/MART 18 2017/style.css",
-		"/D/Administacija sajtova/Sumarski fakultet/GIT/Sumarski fakultet/test/sfb/single-16.php",
-		"/D/Administacija sajtova/Svetosavsko Zvonce/wp-config.php"
+		"/C/Administarcija sajtova/UniDocs/unidocs-19-03-2017/unidocs/wp-content/themes/unidocs-tmp/page-demo.php"
 	],
 	"find":
 	{
@@ -407,6 +443,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			">\t\t\t\t",
+			"svi-servisi",
+			"ctanews",
 			"searched",
 			"search",
 			"searched",
@@ -531,10 +570,7 @@
 			"kontakt",
 			"http:",
 			"add_theme_support",
-			"content",
-			"obuka",
-			"9999",
-			"tabela-obuka"
+			"content"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -557,8 +593,125 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 40896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								32281,
+								32281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 45660.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "page-nastavnicki-servis.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3762,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3178,
+								3178
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1320.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "category-16.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 924,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								170,
+								212
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/C/DOKUMENTA/Administracija sajtova/SvetosavskoZvonce/RADNO/MAJ 03 2017/gridfocus/header.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2239,
+								2239
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -568,7 +721,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 36.0
 	},
 	"layout":
 	{

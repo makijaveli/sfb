@@ -1,0 +1,147 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WordPress - Development\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-05-04 07:39+0000\n"
+"PO-Revision-Date: 2017-05-04 07:41+0000\n"
+"Last-Translator: \n"
+"Language-Team: English (USA)\n"
+"Language: en-US\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Loco-Source-Locale: en_RS\n"
+"X-Generator: Loco - https://localise.biz/\n"
+"X-Loco-Parser: loco_parse_po"
+
+#: sfb slider
+msgid "Види више"
+msgstr "See more"
+
+#: sfb cards
+msgid "Шумарство"
+msgstr "Forestry"
+
+#: sfb cards
+msgid "Технологије, менаџмент и пројектовање намештаја и производа од дрвета"
+msgstr "Technology, management and design of furniture and wood products"
+
+#: sfb cards
+msgid "Пејзажна архитектура и хортикултура"
+msgstr "Landscape architecture and horticulture"
+
+#: sfb cards
+msgid "Еколошки инжењеринг у заштити земљишних и водeних ресурса"
+msgstr "Environmental engineering in protecting land and water resources"
+
+#: sfb news
+msgid "Види све вести факултетa"
+msgstr "See all faculty news"
+
+#: sfb news
+msgid "Види све вести за студенте"
+msgstr "See all news for students"
+
+#: sfb footer
+msgid "У сусрет јубилеју"
+msgstr "Towards the Jubilee"
+
+#: sfb footer
+msgid "година"
+msgstr "years"
+
+#: sfb footer
+msgid "Шумарског факултета одбројавање"
+msgstr "Faculty of Forestry countdown"
+
+#: sfb footer
+msgid "Брзи линкови"
+msgstr "Fast links"
+
+#: sfb footer
+msgid "Факултет"
+msgstr "Faculty"
+
+#: sfb footer
+msgid "Студијски програм"
+msgstr "Study programs"
+
+#: sfb footer
+msgid "Студенти"
+msgstr "Students"
+
+#: sfb footer
+msgid "Наука"
+msgstr "Science"
+
+#: sfb footer
+msgid "Сарадња"
+msgstr "Сooperation"
+
+#: sfb footer
+msgid "Услуге"
+msgstr "Services"
+
+#: sfb footer
+msgid "Наставне базе"
+msgstr "Тeaching base"
+
+#: sfb footer
+msgid ""
+"Универзитет у Београду — Шумарски факулет Кнеза Вишеслава 1, 11030 Београд "
+"тел: (011) 3053-990; факс: (011) 2545-485 Сајт креирао"
+msgstr ""
+"University of Belgrade - Faculty of Forestry Knez Viseslav 1, 11030 Belgrade "
+"phone: (011) 3053-990; fax: (011) 2545-485 Site created"
+
+#: sfb odsek
+msgid "Актуелности"
+msgstr "News"
+
+#: sfb odsek
+msgid "Види све актуелности"
+msgstr "See all news"
+
+#: sfb odsek
+msgid "Наставници и сарадници"
+msgstr "Teachers and associates"
+
+#: sfb odsek
+msgid "Редовни професор"
+msgstr "Regular professor"
+
+#: sfb odsek
+msgid "Ванредни професор"
+msgstr "Associate Professor"
+
+#: sfb odsek
+msgid "Доцент"
+msgstr "Docent"
+
+#: sfb odsek
+msgid "Сарадник у настави"
+msgstr "Teaching Associate"
+
+#: sfb odsek
+msgid "Associate"
+msgstr "News"
+
+#: sfb odsek
+msgid "Види комплетну листу"
+msgstr "See complete list"
+
+#: sfb odsek
+msgid "Department"
+msgstr "News"
+
+#: sfb odsek
+msgid "Шумaрски факултет"
+msgstr "Faculty of Forestry"
+
+msgid "Вести факултетa"
+msgstr "Faculty news"
+
+msgid "Вести за студенте"
+msgstr "News for students"
