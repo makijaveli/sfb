@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: WordPress - Development\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2017-05-04 20:26+0000\n"
-"PO-Revision-Date: 2017-05-04 20:31+0000\n"
+"PO-Revision-Date: 2017-05-04 22:19+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (USA)\n"
 "Language: en-US\n"
@@ -260,3 +260,12 @@ msgstr "National projects"
 
 msgid "Међународни пројекти"
 msgstr "International projects"
+
+msgid "Датум:"
+msgstr "Date:"
+
+msgid "Категорија:"
+msgstr "Category:"
+
+msgid "Шумарски факултет"
+msgstr "Faculty of Forestry"
