@@ -19,13 +19,21 @@
 		};
 
 if (is_tree(718)) { 
-	get_header('red'); 
+	get_header('red');
+} elseif (is_tree(7092)) { 
+	get_header('red');
 } elseif (is_tree(1085)) { 
-	get_header('orange'); 
+	get_header('orange');
+} elseif (is_tree(5619)) { 
+	get_header('orange'); 	 
 } elseif (is_tree(1083)) { 
 	get_header('blue');
+} elseif (is_tree(6805)) { 
+	get_header('blue');	
 } elseif (is_tree(2628)) { 
-	get_header('green');  
+	get_header('green');
+} elseif (is_tree(5612)) { 
+	get_header('green'); 	  
 } else {
 	get_header();
 } 
@@ -38,7 +46,11 @@ if (is_tree(718)) {
 	
 	<div class="wrapper">
 
-		<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
+			<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<?php else: ?>
+			<div class="breadcrumb <?php if ( (is_tree(7092)) ) echo 'red'; elseif ( (is_tree(5619)) ) echo 'orange'; elseif ( (is_tree(6805)) ) echo 'blue'; elseif ( (is_tree(5612)) ) echo 'green'; ?>">
+		<?php endif; ?>
 
 			<?php $url = home_url();?>
 
@@ -67,9 +79,16 @@ if (is_tree(718)) {
 
 	<main>
 
+		<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
 		<aside class="page <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
 			
 			<h2 class="orange"><?php echo get_the_title( 1085 ); ?></h2>
+		<?php else: ?>
+		<aside class="page <?php if ( (is_tree(7092)) ) echo 'red'; elseif ( (is_tree(5619)) ) echo 'orange'; elseif ( (is_tree(6805)) ) echo 'blue'; elseif ( (is_tree(5612)) ) echo 'green'; ?>">				
+
+		<h2 class="orange"><?php echo get_the_title( 5619 ); ?></h2>
+
+		<?php endif; ?>
 
 			<?php if ( is_active_sidebar( 'widget-area-1' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
@@ -83,8 +102,11 @@ if (is_tree(718)) {
 			<span class="button">+</span>
 		</div>
 
-         <div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
-
+         <?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
+		<div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
+		<?php else: ?>
+		<div class="page-content <?php if ( (is_tree(7092)) ) echo 'red'; elseif ( (is_tree(5619)) ) echo 'orange'; elseif ( (is_tree(6805)) ) echo 'blue'; elseif ( (is_tree(5612)) ) echo 'green'; ?>">
+		<?php endif; ?>
 				<?php
 				   $args = array('cat' => 29, 'posts_per_page'=>-1, 'orderby'=>title, 'order' => ASC);
 				   $wp_query = new WP_Query($args);

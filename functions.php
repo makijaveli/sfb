@@ -371,6 +371,12 @@ function html5wp_pagination()
     ));
 }
 
+add_filter( 'redirect_canonical', 'custom_disable_redirect_canonical' );
+function custom_disable_redirect_canonical( $redirect_url ) {
+    if ( is_paged() && is_singular() ) $redirect_url = false; 
+    return $redirect_url; 
+}
+
 // Custom Excerpts
 function html5wp_index($length) // Create 20 Word Callback for Index page Excerpts, call using html5wp_excerpt('html5wp_index');
 {
