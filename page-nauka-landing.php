@@ -123,7 +123,7 @@ get_header();
 
 	                    <?php endwhile; ?> 
 	                    <div class="ctanews nauka">						
-							<a href="<?php echo get_page_link(7013); ?>"><?php _e( 'Види више', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+							<a href="<?php echo get_permalink_current_language(7013); ?>"><?php _e( 'Види више', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 						</div>
 	                    <?php else : ?>
 	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
