@@ -42,11 +42,22 @@ get_header();
 	<main>
 
 		<aside class="page-profesor">
-			
+
+		
+		<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
+
 		<?php if ( is_active_sidebar( 'widget-area-2' ) ) : ?>
 				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
 					<?php dynamic_sidebar( 'widget-area-2' ); ?>
 				</div><!-- #primary-sidebar -->
+		<?php endif; ?>
+
+		<?php else: ?>
+			<?php if ( is_active_sidebar( 'widget-area-11' ) ) : ?>
+				<div id="primary-sidebar" class="primary-sidebar widget-area" role="complementary">
+					<?php dynamic_sidebar( 'widget-area-11' ); ?>
+				</div><!-- #primary-sidebar -->
+			<?php endif; ?>
 		<?php endif; ?>
 		    
 
