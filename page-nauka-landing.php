@@ -56,8 +56,8 @@ get_header();
 		<div class="page-content">
 
 
-					<h1>Наука</h1>
-				    <h2>Скупови и конференције</h2>
+					<h1><?php _e( 'Наука', 'sfb' ); ?></h1>
+				    <h2><?php _e( 'Скупови и конференције', 'sfb' ); ?></h2>
 
 				    <div class="block-nauka">
 					    <?php                    
@@ -72,7 +72,7 @@ get_header();
 
 	                    <?php endwhile; ?> 
 	                    <div class="ctanews nauka">						
-							<a href="<?php echo get_page_link(7011); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+							<a href="<?php echo get_page_link(7011); ?>"><?php _e( 'Види више', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 						</div>
 	                    <?php else : ?>
 	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
@@ -84,7 +84,7 @@ get_header();
 
                     <div class="break"></div>
 
-					<h2>Национални пројекти</h2>
+					<h2><?php _e( 'Национални пројекти', 'sfb' ); ?></h2>
 					<div class="block-nauka">
 					    <?php                    
 	                    $args = array('cat' => 98, 'posts_per_page'=>5 ); //konkursi
@@ -98,7 +98,7 @@ get_header();
 
 	                    <?php endwhile; ?> 
 	                    <div class="ctanews nauka">						
-							<a href="<?php echo get_page_link(7015); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+							<a href="<?php echo get_page_link(7015); ?>"><?php _e( 'Види више', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 						</div>
 	                    <?php else : ?>
 	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
@@ -108,7 +108,7 @@ get_header();
 
                     <div class="break"></div>
 
-					<h2>Међународни пројекти</h2>
+					<h2><?php _e( 'Међународни пројекти', 'sfb' ); ?></h2>
 
 					<div class="block-nauka">
 					    <?php                    
@@ -123,7 +123,7 @@ get_header();
 
 	                    <?php endwhile; ?> 
 	                    <div class="ctanews nauka">						
-							<a href="<?php echo get_page_link(7013); ?>">Види више<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+							<a href="<?php echo get_permalink_current_language(7013); ?>"><?php _e( 'Види више', 'sfb' ); ?><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 						</div>
 	                    <?php else : ?>
 	                        <p> <?php _e( 'Тренутно нема постављених материјала', 'sfb' ); ?></p>
