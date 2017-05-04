@@ -101,7 +101,7 @@ msgstr "Teachers and associates"
 
 #: sfb odsek
 msgid "Редовни професор"
-msgstr "Regular professor"
+msgstr "Full Professor"
 
 #: sfb odsek
 msgid "Ванредни професор"
@@ -109,11 +109,11 @@ msgstr "Associate Professor"
 
 #: sfb odsek
 msgid "Доцент"
-msgstr "Docent"
+msgstr "Assistant professor"
 
 #: sfb odsek
 msgid "Сарадник у настави"
-msgstr "Teaching Associate"
+msgstr "Teaching associate"
 
 #: sfb odsek
 msgid "Associate"
@@ -122,10 +122,6 @@ msgstr "News"
 #: sfb odsek
 msgid "Види комплетну листу"
 msgstr "See complete list"
-
-#: sfb odsek
-msgid "Катедре"
-msgstr "Department"
 
 #: sfb odsek
 msgid "Шумaрски факултет"
@@ -226,3 +222,23 @@ msgstr "Engaging Teaching"
 #: sfb odsek
 msgid "Одабрани научни радови"
 msgstr "Selected papers"
+
+#: sfb odsek
+msgid "Стручни сарадник"
+msgstr "Profesional associate"
+
+#: sfb odsek
+msgid "Асистент"
+msgstr "Teaching assistant"
+
+msgid "Вести факултетa"
+msgstr "Faculty news"
+
+msgid "Вести за студенте"
+msgstr "News for students"
+
+msgid "Категорије вести"
+msgstr "News categories"
+
+msgid "Катедре"
+msgstr "Chairs"

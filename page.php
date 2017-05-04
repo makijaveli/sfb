@@ -46,7 +46,7 @@ if (is_tree(718)) {
 		<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
 			<div class="breadcrumb <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
 		<?php else: ?>
-			<div class="breadcrumb <?php if ( (is_tree(7092)) ) echo 'red'; elseif ( (is_tree(5619)) ) echo 'orange'; elseif ( (is_tree(68053)) ) echo 'blue'; elseif ( (is_tree(5612)) ) echo 'green'; ?>">
+			<div class="breadcrumb <?php if ( (is_tree(7092)) ) echo 'red'; elseif ( (is_tree(5619)) ) echo 'orange'; elseif ( (is_tree(6805)) ) echo 'blue'; elseif ( (is_tree(5612)) ) echo 'green'; ?>">
 		<?php endif; ?>
 
 			<?php $url = home_url();?>
