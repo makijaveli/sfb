@@ -79,7 +79,7 @@ if (is_tree(718)) {
 		<div class="page-content <?php if ( (is_tree(718)) ) echo 'red'; elseif ( (is_tree(1085)) ) echo 'orange'; elseif ( (is_tree(1083)) ) echo 'blue'; elseif ( (is_tree(2628)) ) echo 'green'; ?>">
 
 				
-
+			<?php if (ICL_LANGUAGE_CODE=='sr' ) : ?>
 				<div class="block-landing block-news">					
 					<h2 style="margin-bottom: 40px;"><?php _e( 'Вести студентске службе', 'sfb' ); ?></h2>
 					<?php
@@ -161,6 +161,39 @@ if (is_tree(718)) {
 						<a href="<?php echo get_category_link(101); ?>">	<?php _e('Види све актуелности', 'sfb'); ?> <i class="fa fa-chevron-right" aria-hidden="true"></i></a>
 					</div>
 				</div><!-- /block-news -->
+
+			<?php else: ?>
+				
+				<div class="block-landing block-news">					
+					<h2 style="margin-bottom: 40px;"><?php _e( 'Вести за студенте', 'sfb' ); ?></h2>
+					<?php
+					   $args = array('cat' => 63, 'posts_per_page' => 10);
+					   $wp_query = new WP_Query($args);
+					   if($wp_query->have_posts()) : while($wp_query->have_posts()) : $wp_query->the_post();
+					?>	
+						<div class="articles">
+							<div class="news-thumb">							
+								<?php get_template_part('template_parts/news-students-icons'); ?>
+							</div>
+
+							<div class="titledate">						
+								<h3><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>"><?php the_title() ?></a></h3>
+								<div class="artdate"><?php echo get_the_date('d/m/y'); ?></div>
+							</div>
+						</div>
+
+					<?php endwhile; ?> 
+					<?php endif; ?>
+					<?php wp_reset_postdata(); ?>
+
+					<div class="ctanews studenti">
+						<?php $category_link = get_category_link(63); ?>
+						<a href="<?php echo esc_url( $category_link ); ?>">
+								<?php _e( 'Види све вести', 'sfb' ); ?>
+								<i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+					</div>
+				</div><!-- /artnews -->		
+			<?php endif; ?>	
 
      	</div>
 	
