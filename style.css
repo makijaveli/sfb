@@ -2327,6 +2327,10 @@ span.button {
 	margin-top: 30px;
 }
 
+img.reslogo {
+	display: none;
+}
+
 
 
 /* End Studijski program */
@@ -2414,11 +2418,18 @@ span.button {
 
     .slicknav_menu {
         display:block;
-        background-image: url(images/sumarski-logo.png);
-        background-size: 105px 30px;
+        /*background-image: url(images/sumarski-logo.png);*/
+        /*background-size: 105px 30px;
         background-repeat: no-repeat;
-        background-position: 20px 10px;
+        background-position: 20px 10px;*/
     }
+
+	img.reslogo {
+		position: absolute;
+		top: 10px;
+		left: 10px;
+		display: block;
+	}
 
 
 
