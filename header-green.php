@@ -111,6 +111,12 @@
 
 	<!-- responsive navigacija -->
 
+	<a href="<?php echo home_url(); ?>">
+		
+		<img class="reslogo" src="<?php bloginfo('template_directory'); ?>/images/sumarski-logo.png" alt="Šumarski fakultet">
+		
+		</a>
+
 	<div id="menu" class="green">
 		<?php wp_nav_menu( array( 'theme_location' => 'header-res' ) ); ?>
 

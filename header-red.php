@@ -109,6 +109,12 @@
 
 	</nav>
 
+	<a href="<?php echo home_url(); ?>">
+		
+		<img class="reslogo" src="<?php bloginfo('template_directory'); ?>/images/sumarski-logo.png" alt="Šumarski fakultet">
+		
+		</a>
+
 	<!-- responsive navigacija -->
 
 	<div id="menu" class="red">
